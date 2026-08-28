@@ -63,6 +63,7 @@ Explore the evolution of Artificial Intelligence and the breakthroughs that shap
 - 📝 **Machine Learning** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/machine-learning)
 - 📝 **Deep Learning & Neural Networks** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/deep-learning-neural-networks)
 - 📝 **Machine Learning vs Deep Learning** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/machine-learning-vs-deep-learning)
+- 📝 **Computer Vision Revolution** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/computer-vision-revolution)
 
 ## 🌱 Structure of this Project
 

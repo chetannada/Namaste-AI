@@ -193,6 +193,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten comparison of machine learning and deep learning, covering data requirements, feature engineering, neural networks, workflows, and real-world examples.",
           },
+          {
+            pageNumber: 7,
+            title: "Computer Vision Revolution",
+            slug: "computer-vision-revolution",
+            imageUrl: "/images/notes/s1-e2/s1-e2.7-computer-vision-revolution.webp",
+            caption:
+              "Handwritten explanation of ImageNet and AlexNet, showing how neural networks learned visual patterns and enabled image recognition, self-driving cars, face unlock, X-ray analysis, and product identification.",
+          },
         ],
       },
     ],
