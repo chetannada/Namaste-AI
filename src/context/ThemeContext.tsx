@@ -82,6 +82,9 @@ export function ThemeProvider({ children }: Readonly<{ children: ReactNode }>) {
       if (isTheme(savedTheme)) {
         setThemeState(savedTheme);
       }
+    } catch {
+      // Storage can be unavailable in restricted/privacy-focused browser contexts.
+      // Keep the default theme instead of letting theme initialization fail.
     } finally {
       setIsThemeLoaded(true);
     }
@@ -95,7 +98,12 @@ export function ThemeProvider({ children }: Readonly<{ children: ReactNode }>) {
     const root = document.documentElement;
     root.dataset.theme = theme;
     root.classList.toggle("dark", theme === "dark");
-    window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch {
+      // Applying the theme should not depend on persistent storage being writable.
+    }
   }, [isThemeLoaded, theme]);
 
   const setTheme = useCallback((nextTheme: Theme) => {
