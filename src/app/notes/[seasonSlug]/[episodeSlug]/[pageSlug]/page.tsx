@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: PageRouteProps): Promise<Meta
   return {
     title,
     description,
+    alternates: {
+      canonical: `/notes/${seasonSlug}/${episodeSlug}/${pageSlug}`,
+    },
     openGraph: {
       title,
       description,

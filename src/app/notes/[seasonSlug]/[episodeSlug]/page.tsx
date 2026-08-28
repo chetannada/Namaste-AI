@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: EpisodePageProps): Promise<Me
   return {
     title,
     description: episode.description,
+    alternates: {
+      canonical: `/notes/${seasonSlug}/${episodeSlug}`,
+    },
     openGraph: {
       title,
       description: episode.description,

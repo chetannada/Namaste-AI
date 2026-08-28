@@ -24,6 +24,9 @@ export async function generateMetadata({ params }: SeasonPageProps): Promise<Met
   return {
     title: `Season ${season.seasonNumber}: ${season.title} — Namaste AI Notes`,
     description: season.description,
+    alternates: {
+      canonical: `/notes/${seasonSlug}`,
+    },
     openGraph: {
       title: `Season ${season.seasonNumber}: ${season.title} — Namaste AI Notes`,
       description: season.description,
