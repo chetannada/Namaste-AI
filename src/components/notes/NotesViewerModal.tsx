@@ -1,6 +1,13 @@
 "use client";
 
-import { useState, useEffect, useLayoutEffect, useCallback, useRef } from "react";
+import {
+  useState,
+  useEffect,
+  useLayoutEffect,
+  useCallback,
+  useRef,
+  useSyncExternalStore,
+} from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { createPortal } from "react-dom";
@@ -30,6 +37,8 @@ function touchDistance(a: Touch, b: Touch) {
   return Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
 }
 
+const emptySubscribe = () => () => {};
+
 interface NotesViewerModalProps {
   episode: Episode | null;
   season: Season | null;
@@ -51,7 +60,9 @@ export const NotesViewerModal = ({
 }: NotesViewerModalProps) => {
   const [currentPageIndex, setCurrentPageIndex] = useState(initialPageIndex);
   const [zoomLevel, setZoomLevel] = useState(1);
-  const [mounted, setMounted] = useState(false);
+  const mounted = useSyncExternalStore(emptySubscribe, () => true, () => false);
+  const navigationKey = `${episode?.id ?? ""}:${initialPageIndex}`;
+  const [syncedNavigationKey, setSyncedNavigationKey] = useState(navigationKey);
   const viewportRef = useRef<HTMLDivElement>(null);
   const thumbnailStripRef = useRef<HTMLDivElement>(null);
   const [viewportEl, setViewportEl] = useState<HTMLDivElement | null>(null);
@@ -70,16 +81,19 @@ export const NotesViewerModal = ({
     setViewportEl(node);
   }, []);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
+  if (syncedNavigationKey !== navigationKey) {
+    setSyncedNavigationKey(navigationKey);
     setCurrentPageIndex(initialPageIndex);
-    zoomLevelRef.current = 1;
-    pendingScrollRef.current = null;
     setZoomLevel(1);
-  }, [episode, initialPageIndex]);
+  }
+
+  useLayoutEffect(() => {
+    zoomLevelRef.current = zoomLevel;
+  }, [zoomLevel]);
+
+  useLayoutEffect(() => {
+    pendingScrollRef.current = null;
+  }, [navigationKey]);
 
   useEffect(() => {
     if (isOpen) {
