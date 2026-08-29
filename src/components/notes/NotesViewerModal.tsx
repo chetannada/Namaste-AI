@@ -53,6 +53,7 @@ export const NotesViewerModal = ({
   const [zoomLevel, setZoomLevel] = useState(1);
   const [mounted, setMounted] = useState(false);
   const viewportRef = useRef<HTMLDivElement>(null);
+  const thumbnailStripRef = useRef<HTMLDivElement>(null);
   const [viewportEl, setViewportEl] = useState<HTMLDivElement | null>(null);
   const zoomLevelRef = useRef(1);
   const pinchRef = useRef<{ startDistance: number; startZoom: number } | null>(null);
@@ -121,6 +122,20 @@ export const NotesViewerModal = ({
   useLayoutEffect(() => {
     viewportRef.current?.scrollTo({ top: 0, left: 0 });
   }, [episode?.id, currentPageIndex]);
+
+  useLayoutEffect(() => {
+    const strip = thumbnailStripRef.current;
+    const active = strip?.querySelector<HTMLElement>("[data-active-thumb='true']");
+    if (!strip || !active) return;
+    const stripRect = strip.getBoundingClientRect();
+    const activeRect = active.getBoundingClientRect();
+    const left =
+      strip.scrollLeft +
+      (activeRect.left - stripRect.left) -
+      strip.clientWidth / 2 +
+      activeRect.width / 2;
+    strip.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
+  }, [currentPageIndex, episode?.id]);
 
   useEffect(() => {
     if (!isOpen || !viewportEl) return;
@@ -513,32 +528,37 @@ export const NotesViewerModal = ({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
-            className="relative z-210 flex h-20 w-full shrink-0 items-center justify-between border-t border-border/80 bg-body/90 px-4 sm:px-8 backdrop-blur-md"
+            className="relative z-210 flex h-20 w-full shrink-0 items-center gap-2 border-t border-border/80 bg-body/90 px-3 sm:px-8 backdrop-blur-md"
           >
             {prevEpisode && prevEpisode.isAvailable ? (
               <button
                 type="button"
                 onClick={() => onSelectEpisode(prevEpisode)}
-                className="inline-flex items-center gap-1.5 rounded-xl border border-border/80 bg-surface/70 px-3 py-1.5 text-xs font-semibold text-text-muted hover:border-primary/50 hover:text-primary transition-colors cursor-pointer"
+                className="inline-flex shrink-0 items-center gap-1 rounded-xl border border-border/80 bg-surface/70 px-2 py-1.5 text-xs font-semibold text-text-muted hover:border-primary/50 hover:text-primary transition-colors cursor-pointer sm:gap-1.5 sm:px-3"
               >
                 <FiChevronLeft size={14} />
                 EP {prevEpisode.episodeNumber}
               </button>
             ) : (
-              <div className="w-20" />
+              <div className="hidden w-20 shrink-0 sm:block" />
             )}
 
-            <div className="no-scrollbar flex items-center justify-center gap-2 overflow-x-auto px-2 py-0.5">
-              {episode.pages.map((page, idx) => (
+            <div
+              ref={thumbnailStripRef}
+              className="no-scrollbar min-w-0 flex-1 overflow-x-auto py-1"
+            >
+              <div className="flex w-max min-w-full items-center justify-center gap-2 px-1">
+                {episode.pages.map((page, idx) => (
                 <button
                   key={page.pageNumber}
                   type="button"
+                  data-active-thumb={currentPageIndex === idx ? "true" : undefined}
                   onClick={() => handleSelectPage(idx)}
                   className={`
                     relative h-12 w-16 shrink-0 overflow-hidden rounded-xl border transition-all duration-200 cursor-pointer
                     ${
                       currentPageIndex === idx
-                        ? "border-primary ring-2 ring-primary/40 scale-105 shadow-lg shadow-primary/20"
+                        ? "border-primary ring-2 ring-primary/40 shadow-lg shadow-primary/20"
                         : "border-border/80 opacity-60 hover:opacity-100"
                     }
                   `}
@@ -555,19 +575,20 @@ export const NotesViewerModal = ({
                   </span>
                 </button>
               ))}
+              </div>
             </div>
 
             {nextEpisode && nextEpisode.isAvailable ? (
               <button
                 type="button"
                 onClick={() => onSelectEpisode(nextEpisode)}
-                className="inline-flex items-center gap-1.5 rounded-xl border border-border/80 bg-surface/70 px-3 py-1.5 text-xs font-semibold text-text-muted hover:border-primary/50 hover:text-primary transition-colors cursor-pointer"
+                className="inline-flex shrink-0 items-center gap-1 rounded-xl border border-border/80 bg-surface/70 px-2 py-1.5 text-xs font-semibold text-text-muted hover:border-primary/50 hover:text-primary transition-colors cursor-pointer sm:gap-1.5 sm:px-3"
               >
                 EP {nextEpisode.episodeNumber}
                 <FiChevronRight size={14} />
               </button>
             ) : (
-              <div className="w-20" />
+              <div className="hidden w-20 shrink-0 sm:block" />
             )}
           </motion.footer>
         </div>
