@@ -43,7 +43,7 @@ export const EpisodeCard = ({
   };
 
   const cardClasses = `
-    group relative flex flex-col overflow-hidden rounded-3xl border p-3.5 sm:p-4 transition-all duration-300
+    group relative flex h-full flex-col overflow-hidden rounded-3xl border p-3.5 sm:p-4 transition-all duration-300
     ${
       isAvailable
         ? "cursor-pointer border-border bg-surface/75 backdrop-blur-md hover:border-primary/60 hover:bg-surface hover:shadow-2xl hover:shadow-primary/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
@@ -161,6 +161,7 @@ export const EpisodeCard = ({
 
   return (
     <motion.div
+      className="h-full"
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       whileHover={isAvailable ? { y: -6 } : undefined}
