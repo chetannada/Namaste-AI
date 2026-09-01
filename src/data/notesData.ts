@@ -201,6 +201,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of ImageNet and AlexNet, showing how neural networks learned visual patterns and enabled image recognition, self-driving cars, face unlock, X-ray analysis, and product identification.",
           },
+          {
+            pageNumber: 8,
+            title: "Natural Language Processing",
+            slug: "natural-language-processing",
+            imageUrl: "/images/notes/s1-e2/s1-e2.8-natural-language-processing.webp",
+            caption:
+              "Handwritten explanation of natural language processing, why human language is difficult for machines to understand, context and ambiguity in sentences, and NLP approaches including Bag of Words, n-grams, RNNs, and LSTMs.",
+          },
         ],
       },
     ],
