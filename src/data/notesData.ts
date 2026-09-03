@@ -209,6 +209,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of natural language processing, why human language is difficult for machines to understand, context and ambiguity in sentences, and NLP approaches including Bag of Words, n-grams, RNNs, and LSTMs.",
           },
+          {
+            pageNumber: 9,
+            title: "Transformers & Large Language Models",
+            slug: "transformers-large-language-models",
+            imageUrl: "/images/notes/s1-e2/s1-e2.9-transformers-large-language-models.webp",
+            caption:
+              "Handwritten explanation of Transformers and Large Language Models, covering the 2017 'Attention Is All You Need' paper, how Transformers understand word relationships and context, and why large AI models require huge datasets, powerful GPUs, computing infrastructure, researchers, and high energy costs.",
+          },
         ],
       },
     ],
