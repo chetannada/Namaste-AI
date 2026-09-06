@@ -217,6 +217,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of Transformers and Large Language Models, covering the 2017 'Attention Is All You Need' paper, how Transformers understand word relationships and context, and why large AI models require huge datasets, powerful GPUs, computing infrastructure, researchers, and high energy costs.",
           },
+          {
+            pageNumber: 10,
+            title: "Generative AI",
+            slug: "generative-ai",
+            imageUrl: "/images/notes/s1-e2/s1-e2.10-generative-ai.webp",
+            caption:
+              "Handwritten explanation of Generative AI, comparing traditional AI tasks like classification, prediction, and recommendation with AI that creates new content such as poems and images, along with multimodal AI that works with text, images, audio, video, and documents.",
+          },
         ],
       },
     ],
