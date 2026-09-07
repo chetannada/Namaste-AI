@@ -67,6 +67,7 @@ Explore the evolution of Artificial Intelligence and the breakthroughs that shap
 - 📝 **Natural Language Processing** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/natural-language-processing)
 - 📝 **Transformers & Large Language Models** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/transformers-large-language-models)
 - 📝 **Generative AI** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/generative-ai)
+- 📝 **The ChatGPT Moment & AI Today** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/the-chatgpt-moment-ai-today)
 
 ## 🌱 Structure of this Project
 
