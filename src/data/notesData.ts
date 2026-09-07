@@ -225,6 +225,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of Generative AI, comparing traditional AI tasks like classification, prediction, and recommendation with AI that creates new content such as poems and images, along with multimodal AI that works with text, images, audio, video, and documents.",
           },
+          {
+            pageNumber: 11,
+            title: "The ChatGPT Moment & AI Today",
+            slug: "chatgpt-moment-ai-today",
+            imageUrl: "/images/notes/s1-e2/s1-e2.11-chat-gpt-moment-multimodal-ai.webp",
+            caption:
+              "Handwritten explanation of the ChatGPT moment in November 2022, the rise of the AI model race, multimodal AI across text, images, audio, video, and documents, and how modern AI can think, plan, use APIs and tools, remember context, search the web, write code, work autonomously, and complete tasks.",
+          },
         ],
       },
     ],
