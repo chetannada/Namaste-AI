@@ -233,6 +233,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of the ChatGPT moment in November 2022, the rise of the AI model race, multimodal AI across text, images, audio, video, and documents, and how modern AI can think, plan, use APIs and tools, remember context, search the web, write code, work autonomously, and complete tasks.",
           },
+          {
+            pageNumber: 12,
+            title: "Timeline of AI & The Future of AI",
+            slug: "timeline-of-ai-future",
+            imageUrl: "/images/notes/s1-e2/s1-e2.12-timeline-of-ai.webp",
+            caption:
+              "Handwritten timeline of AI from Alan Turing and the birth of Artificial Intelligence through rule-based AI, machine learning, deep learning, AlexNet, AlphaGo, Transformers, and ChatGPT, followed by Agentic AI and key industry trends including multimodal AI, multi-agent orchestration, reasoning models, RAG, MCP, and robotics.",
+          },
         ],
       },
     ],
