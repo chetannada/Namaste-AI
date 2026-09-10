@@ -1,10 +1,6 @@
-# Namaste AI 🚀
+# Namaste AI 🚀 — AI Course Notes, Projects & Learning Journey
 
-**Namaste AI** is a hands-on learning journey to understand modern **Artificial Intelligence** and build real-world AI applications.
-
-Created while learning from the **[Namaste AI course 🔥](https://namastedev.com/learn/namaste-ai?_aff=946684804112)** by **Akshay Saini**, Founder of **[NamasteDev](https://namastedev.com/?_aff=946684804112)**.
-
-This repository is my **learning in public** journey, where I share my **handwritten notes, learnings, experiments, and projects** as I explore AI. ✍️🤖
+A hands-on **Namaste AI** repository created while learning the **[Namaste AI course](https://namastedev.com/learn/namaste-ai?_aff=946684804112)** by **Akshay Saini**, Founder of **[NamasteDev](https://namastedev.com/?_aff=946684804112)**. This repository contains handwritten AI notes, AI concepts, LLM learning resources, RAG, AI agents, MCP, Generative AI experiments, and real-world AI projects.
 
 > 💡 **The goal is not just to use AI tools.**
 >
@@ -144,7 +140,7 @@ Before running the application, make sure you have the following installed:
 
 ## 🔥 Clone this Repository
 
-Follow these steps to set up and run RepoSpark locally:
+Follow these steps to set up and run Namaste AI locally:
 
 ### 1. Clone the Repo
 
