@@ -260,6 +260,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten comparison of Google Search and ChatGPT, explaining how search engines retrieve existing information while ChatGPT generates responses using model knowledge, context, and available tools, along with the risk of AI hallucinations when a question contains false or unsupported information.",
           },
+          {
+            pageNumber: 2,
+            title: "Search Engines vs LLMs",
+            slug: "search-engines-vs-llms",
+            imageUrl: "/images/notes/s1-e3/s1-e3.2-search-engines-vs-llms.webp",
+            caption:
+              "Handwritten comparison of search engines and Large Language Models (LLMs), explaining how search engines retrieve relevant information from indexed sources while LLMs generate responses by using learned patterns to predict and produce text.",
+          },
         ],
       },
     ],
