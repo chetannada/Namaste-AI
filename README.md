@@ -66,6 +66,23 @@ Explore the evolution of Artificial Intelligence and the breakthroughs that shap
 - 📝 **The ChatGPT Moment & AI Today** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/the-chatgpt-moment-ai-today)
 - 📝 **Timeline of AI & The Future of AI** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/timeline-of-ai-future)
 
+---
+
+### 🤔 Episode 03 — Does ChatGPT know or Does it Guess?
+
+Understand how ChatGPT generates answers and whether it truly knows or simply predicts what comes next.
+
+**What you'll learn**
+
+- 🔍 Google Search vs ChatGPT
+- 🧠 How ChatGPT generates responses
+- ⚠️ AI Hallucinations
+- 🔮 Next Token Prediction
+
+✍️ **Handwritten Notes:**
+
+- 📝 **Google Search vs ChatGPT** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/google-search-vs-chatgpt)
+
 ## 🌱 Structure of this Project
 
 ```
@@ -77,11 +94,13 @@ Namaste-AI/
 │       └── 📁 notes/                   # Handwritten note images (per episode)
 │           ├── 📁 s1-e1/               # Season 1 · Episode 01 notes
 │           │   └── s1-e1-welcome-to-namaste-ai.webp
-│           └── 📁 s1-e2/               # Season 1 · Episode 02 notes
-│               ├── s1-e2.1-what-is-artificial-intelligence.webp
-│               ├── s1-e2.2-can-machines-think.webp
-│               ├── s1-e2.3-rule-based-ai.webp
-│               └── s1-e2.4-machine-learning.webp
+│           ├── 📁 s1-e2/               # Season 1 · Episode 02 notes
+│           │   ├── s1-e2.1-what-is-artificial-intelligence.webp
+│           │   ├── s1-e2.2-can-machines-think.webp
+│           │   ├── s1-e2.3-rule-based-ai.webp
+│           │   └── s1-e2.4-machine-learning.webp
+│           └── 📁 s1-e3/               # Season 1 · Episode 03 notes
+│               └── s1-e3.1-google-search-vs-chatgpt.webp
 │
 ├── 📁 src/                             # Application source code
 │   ├── 📁 app/                         # Next.js App Router (pages & layouts)

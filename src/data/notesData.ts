@@ -243,6 +243,26 @@ export const seasonsData: Season[] = [
           },
         ],
       },
+      {
+        id: "s1-ep3",
+        episodeNumber: 3,
+        title: "Does ChatGPT know or Does it Guess?",
+        slug: "does-chatgpt-know-or-does-it-guess",
+        description:
+          "Understand how ChatGPT generates answers and whether it truly knows or simply predicts what comes next",
+        topics: ["ChatGPT", "Search vs Generation", "AI Hallucinations", "Next Token Prediction"],
+        isAvailable: true,
+        pages: [
+          {
+            pageNumber: 1,
+            title: "Google Search vs ChatGPT",
+            slug: "google-search-vs-chatgpt",
+            imageUrl: "/images/notes/s1-e3/s1-e3.1-google-search-vs-chatgpt.webp",
+            caption:
+              "Handwritten comparison of Google Search and ChatGPT, explaining how search engines retrieve existing information while ChatGPT generates responses using model knowledge, context, and available tools, along with the risk of AI hallucinations when a question contains false or unsupported information.",
+          },
+        ],
+      },
     ],
   },
   {
