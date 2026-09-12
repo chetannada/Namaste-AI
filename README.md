@@ -45,11 +45,14 @@ Explore the evolution of Artificial Intelligence and the breakthroughs that shap
 
 **What you'll learn**
 
-- 🧠 How AI started
-- 📜 Important AI milestones
-- ♟️ Rule-based AI
+- 🧠 History of AI
+- ♟️ Rule Based AI
 - 🤖 Machine Learning
-- 🔥 The evolution toward modern AI
+- 🔥 Deep Learning
+- 👁️ Computer Vision
+- 💬 NLP
+- 🤖 Transformers & LLMs
+- ✨ Generative AI
 
 ✍️ **Handwritten Notes:**
 
