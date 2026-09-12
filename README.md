@@ -85,6 +85,7 @@ Understand how ChatGPT generates answers and whether it truly knows or simply pr
 ✍️ **Handwritten Notes:**
 
 - 📝 **Google Search vs ChatGPT** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/google-search-vs-chatgpt)
+- 📝 **Search Engines vs LLMs** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/search-engines-vs-llms)
 
 ## 🌱 Structure of this Project
 
