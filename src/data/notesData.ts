@@ -28,8 +28,6 @@ export interface Season {
   episodes: Episode[];
 }
 
-// --- Slug & Lookup Helpers ---
-
 export function generateSlug(title: string): string {
   return title
     .toLowerCase()
@@ -95,8 +93,6 @@ export function getSeasonUrl(seasonId: string): string {
   return `/notes/${seasonId}`;
 }
 
-// --- Data ---
-
 export const seasonsData: Season[] = [
   {
     id: "season-1",
@@ -137,10 +133,13 @@ export const seasonsData: Season[] = [
           "Explore the evolution of Artificial Intelligence and the breakthroughs that shaped modern AI systems.",
         topics: [
           "History of AI",
-          "Symbolic AI",
           "Rule Based AI",
           "Machine Learning",
           "Deep Learning",
+          "Computer Vision",
+          "NLP",
+          "Transformers & LLMs",
+          "Generative AI",
         ],
         isAvailable: true,
         pages: [
