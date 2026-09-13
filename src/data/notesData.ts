@@ -268,6 +268,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten comparison of search engines and Large Language Models (LLMs), explaining how search engines retrieve relevant information from indexed sources while LLMs generate responses by using learned patterns to predict and produce text.",
           },
+          {
+            pageNumber: 3,
+            title: "How Search Engines Discover New Pages",
+            slug: "how-search-engines-discover-new-pages",
+            imageUrl: "/images/notes/s1-e3/s1-e3.3-how-search-engines-discover-new-pages.webp",
+            caption:
+              "Handwritten explanation of how search engines discover and index new web pages, covering how crawlers find content, search engines organize information in their index, and how indexed pages can later appear in search results.",
+          },
         ],
       },
     ],
