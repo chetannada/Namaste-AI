@@ -276,6 +276,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of how search engines discover and index new web pages, covering how crawlers find content, search engines organize information in their index, and how indexed pages can later appear in search results.",
           },
+          {
+            pageNumber: 4,
+            title: "How LLMs Generate Responses",
+            slug: "how-llms-generate-responses",
+            imageUrl: "/images/notes/s1-e3/s1-e3.4-how-llms-generate-responses.webp",
+            caption:
+              "Handwritten explanation of how Large Language Models generate responses by predicting the next word, using patterns learned from large amounts of training data to understand context and produce relevant text.",
+          },
         ],
       },
     ],
