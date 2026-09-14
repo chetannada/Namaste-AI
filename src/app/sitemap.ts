@@ -10,13 +10,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: BASE_URL,
       lastModified: now,
-      changeFrequency: "weekly",
+      changeFrequency: "daily",
       priority: 1.0,
     },
     {
       url: `${BASE_URL}/notes`,
       lastModified: now,
-      changeFrequency: "weekly",
+      changeFrequency: "daily",
       priority: 0.9,
     },
   ];
@@ -43,7 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${BASE_URL}/notes/${season.id}/${epSlug}/${buildPageSlug(page)}`,
         lastModified: now,
         changeFrequency: "monthly",
-        priority: 0.6,
+        priority: 0.7,
       }));
 
       return [episodeUrl, ...notePages];
