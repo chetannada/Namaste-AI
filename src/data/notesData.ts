@@ -284,6 +284,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of how Large Language Models generate responses by predicting the next word, using patterns learned from large amounts of training data to understand context and produce relevant text.",
           },
+          {
+            pageNumber: 5,
+            title: "LLM Knowledge & Knowledge Cutoff",
+            slug: "llm-knowledge-and-knowledge-cutoff",
+            imageUrl: "/images/notes/s1-e3/s1-e3.5-llm-knowledge-and-knowledge-cutoff.webp",
+            caption:
+              "Handwritten explanation of what knowledge an LLM contains, how training adjusts billions of parameters to learn patterns and predict tokens, why an LLM does not store webpages directly, and what a knowledge cutoff means, including why models do not automatically learn new information.",
+          },
         ],
       },
     ],
