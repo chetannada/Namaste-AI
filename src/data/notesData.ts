@@ -292,6 +292,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of what knowledge an LLM contains, how training adjusts billions of parameters to learn patterns and predict tokens, why an LLM does not store webpages directly, and what a knowledge cutoff means, including why models do not automatically learn new information.",
           },
+          {
+            pageNumber: 6,
+            title: "Base Model vs AI Assistant",
+            slug: "base-model-vs-ai-assistant",
+            imageUrl: "/images/notes/s1-e3/s1-e3.6-base-model-vs-ai-assistant.webp",
+            caption:
+              "Handwritten comparison of base language models and AI assistants, explaining how base models predict the next token while assistants such as ChatGPT, Claude, and Gemini combine language models with instructions, training, interfaces, tools, safety, and context to understand requests and perform tasks.",
+          },
         ],
       },
     ],
