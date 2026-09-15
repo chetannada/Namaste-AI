@@ -88,6 +88,7 @@ Understand how ChatGPT generates answers and whether it truly knows or simply pr
 - 📝 **Search Engines vs LLMs** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/search-engines-vs-llms)
 - 📝 **How Search Engines Discover New Pages** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/how-search-engines-discover-new-pages)
 - 📝 **How LLMs Generate Responses** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/how-llms-generate-responses)
+- 📝 **LLM Knowledge & Knowledge Cutoff** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/llm-knowledge-and-knowledge-cutoff)
 
 ## 🌱 Structure of this Project
 
