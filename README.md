@@ -90,6 +90,7 @@ Understand how ChatGPT generates answers and whether it truly knows or simply pr
 - 📝 **How LLMs Generate Responses** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/how-llms-generate-responses)
 - 📝 **LLM Knowledge & Knowledge Cutoff** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/llm-knowledge-and-knowledge-cutoff)
 - 📝 **Base Model vs AI Assistant** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/base-model-vs-ai-assistant)
+- 📝 **What Gets Added on Top of the Base Model** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/what-gets-added-on-top-of-base-model)
 
 ## 🌱 Structure of this Project
 

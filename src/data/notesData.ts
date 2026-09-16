@@ -300,6 +300,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten comparison of base language models and AI assistants, explaining how base models predict the next token while assistants such as ChatGPT, Claude, and Gemini combine language models with instructions, training, interfaces, tools, safety, and context to understand requests and perform tasks.",
           },
+          {
+            pageNumber: 7,
+            title: "What Gets Added on Top of the Base Model",
+            slug: "what-gets-added-on-top-of-base-model",
+            imageUrl: "/images/notes/s1-e3/s1-e3.7-what-gets-added-on-top-of-the-base-model.webp",
+            caption:
+              "Handwritten explanation of the capabilities and controls added on top of a base language model, including web search, files, instruction tuning, human feedback, memory, safety training, retrieval, tools, system instructions, content filters, conversation management, guardrails, and security.",
+          },
         ],
       },
     ],
