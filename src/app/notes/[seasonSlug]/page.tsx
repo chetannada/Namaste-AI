@@ -21,16 +21,24 @@ export async function generateMetadata({ params }: SeasonPageProps): Promise<Met
     return { title: "Season Not Found — Namaste AI" };
   }
 
+  const seasonUrl = `/notes/${seasonSlug}`;
+
   return {
     title: `Season ${season.seasonNumber}: ${season.title} — Namaste AI Notes`,
     description: season.description,
     alternates: {
-      canonical: `/notes/${seasonSlug}`,
+      canonical: seasonUrl,
     },
     openGraph: {
       title: `Season ${season.seasonNumber}: ${season.title} — Namaste AI Notes`,
       description: season.description,
+      url: seasonUrl,
       type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Season ${season.seasonNumber}: ${season.title} — Namaste AI Notes`,
+      description: season.description,
     },
   };
 }
