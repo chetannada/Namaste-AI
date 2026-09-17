@@ -28,18 +28,36 @@ export async function generateMetadata({ params }: EpisodePageProps): Promise<Me
   const epNum = episode.episodeNumber < 10 ? `0${episode.episodeNumber}` : episode.episodeNumber;
   const title = `EP ${epNum}: ${episode.title} — Season ${season.seasonNumber} | Namaste AI Notes`;
   const ogImage = episode.pages[0]?.imageUrl;
+  const episodeUrl = `/notes/${seasonSlug}/${episodeSlug}`;
 
   return {
     title,
     description: episode.description,
     alternates: {
-      canonical: `/notes/${seasonSlug}/${episodeSlug}`,
+      canonical: episodeUrl,
     },
     openGraph: {
       title,
       description: episode.description,
+      url: episodeUrl,
       type: "article",
-      ...(ogImage && { images: [{ url: ogImage, alt: episode.title }] }),
+      ...(ogImage && {
+        images: [
+          {
+            url: ogImage,
+            width: 1200,
+            height: 630,
+            type: "image/webp",
+            alt: episode.title,
+          },
+        ],
+      }),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: episode.description,
+      ...(ogImage && { images: [ogImage] }),
     },
   };
 }
