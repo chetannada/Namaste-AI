@@ -308,6 +308,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of the capabilities and controls added on top of a base language model, including web search, files, instruction tuning, human feedback, memory, safety training, retrieval, tools, system instructions, content filters, conversation management, guardrails, and security.",
           },
+          {
+            pageNumber: 8,
+            title: "Inference vs Training",
+            slug: "inference-vs-training",
+            imageUrl: "/images/notes/s1-e3/s1-e3.8-inference-vs-training.webp",
+            caption:
+              "Handwritten explanation of training and inference in AI, showing how models learn from large amounts of data by making predictions and adjusting weights during training, while inference is the process of using a trained model to process a prompt and generate an output, with a real-world driving example.",
+          },
         ],
       },
     ],
