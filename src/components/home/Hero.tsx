@@ -172,10 +172,9 @@ const Hero = () => {
             <Image
               src={heroImg}
               alt="AI robot studying handwritten notes – representing the Namaste AI learning journey"
-              width={600}
-              height={450}
               priority
               placeholder="blur"
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="h-auto w-full object-cover"
             />
 
