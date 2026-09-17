@@ -27,7 +27,6 @@ export async function generateMetadata({ params }: EpisodePageProps): Promise<Me
   const { season, episode } = result;
   const epNum = episode.episodeNumber < 10 ? `0${episode.episodeNumber}` : episode.episodeNumber;
   const title = `EP ${epNum}: ${episode.title} — Season ${season.seasonNumber} | Namaste AI Notes`;
-  const ogImage = episode.pages[0]?.imageUrl;
   const episodeUrl = `/notes/${seasonSlug}/${episodeSlug}`;
 
   return {
@@ -41,23 +40,11 @@ export async function generateMetadata({ params }: EpisodePageProps): Promise<Me
       description: episode.description,
       url: episodeUrl,
       type: "article",
-      ...(ogImage && {
-        images: [
-          {
-            url: ogImage,
-            width: 1200,
-            height: 630,
-            type: "image/webp",
-            alt: episode.title,
-          },
-        ],
-      }),
     },
     twitter: {
       card: "summary_large_image",
       title,
       description: episode.description,
-      ...(ogImage && { images: [ogImage] }),
     },
   };
 }
