@@ -316,6 +316,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of training and inference in AI, showing how models learn from large amounts of data by making predictions and adjusting weights during training, while inference is the process of using a trained model to process a prompt and generate an output, with a real-world driving example.",
           },
+          {
+            pageNumber: 9,
+            title: "Why AI Models Produce Confidently Wrong Answers",
+            slug: "why-models-confidently-produce-wrong-answers",
+            imageUrl: "/images/notes/s1-e3.9-why-models-confidently-produce-wrong-answers.webp",
+            caption:
+              "Handwritten explanation of AI hallucinations and why fluent, confident language does not guarantee truth, showing how models can generate incorrect, unsupported, or misleading information and why important AI-generated claims should be verified against reliable evidence.",
+          },
         ],
       },
     ],
