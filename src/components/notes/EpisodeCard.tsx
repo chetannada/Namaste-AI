@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Episode, getEpisodeUrl } from "@/data/notesData";
+import { Episode, getEpisodeUrl, cdnImage } from "@/data/notesData";
 import { FiBookOpen, FiClock, FiEye, FiLock, FiArrowRight } from "react-icons/fi";
 import { HiOutlineSparkles } from "react-icons/hi2";
 
@@ -24,7 +24,7 @@ export const EpisodeCard = ({
 }: EpisodeCardProps) => {
   const isAvailable = episode.isAvailable && episode.pages.length > 0;
   const thumbnail =
-    episode.pages[0]?.imageUrl || "/images/notes/s1-e1/s1-e1-welcome-to-namaste-ai.webp";
+    episode.pages[0]?.imageUrl || cdnImage("v1789754264/s1-e1-p1-welcome-to-namaste-ai.webp");
   const readDuration = episode.pages.length <= 1 ? 4 : 4 + (episode.pages.length - 1) * 3;
   const episodeUrl = getEpisodeUrl(seasonSlug, episode);
 

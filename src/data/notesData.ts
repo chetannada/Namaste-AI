@@ -1,3 +1,9 @@
+export const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/bcctbhur/image/upload";
+
+export function cdnImage(path: string): string {
+  return `${CLOUDINARY_BASE_URL}/${path}`;
+}
+
 export interface NotePage {
   pageNumber: number;
   title: string;
@@ -118,7 +124,7 @@ export const seasonsData: Season[] = [
             pageNumber: 1,
             title: "Roadmap about Namaste AI Course",
             slug: "roadmap-about-namaste-ai-course",
-            imageUrl: "/images/notes/s1-e1/s1-e1-welcome-to-namaste-ai.webp",
+            imageUrl: cdnImage("v1789754264/s1-e1-p1-welcome-to-namaste-ai.webp"),
             caption:
               "Course roadmap, prerequisites, learning approach, assignments, community, and practical project-building journey.",
           },
@@ -147,7 +153,7 @@ export const seasonsData: Season[] = [
             pageNumber: 1,
             title: "What Is Artificial Intelligence?",
             slug: "what-is-artificial-intelligence",
-            imageUrl: "/images/notes/s1-e2/s1-e2.1-what-is-artificial-intelligence.webp",
+            imageUrl: cdnImage("v1789756205/s1-e2-p1-what-is-artificial-intelligence.webp"),
             caption:
               "Handwritten introduction to AI, real-world examples, its definition, and how machines learn to recognize patterns like humans.",
           },
@@ -155,7 +161,7 @@ export const seasonsData: Season[] = [
             pageNumber: 2,
             title: "The Evolution of Artificial Intelligence",
             slug: "the-evolution-of-artificial-intelligence",
-            imageUrl: "/images/notes/s1-e2/s1-e2.2-can-machines-think.webp",
+            imageUrl: cdnImage("v1789756205/s1-e2-p2-can-machines-think.webp"),
             caption:
               "Handwritten journey through AI history, from the Turing Test and birth of AI to the AI Winter, Synthetic Intelligence, and Deep Blue defeating Kasparov.",
           },
@@ -163,7 +169,7 @@ export const seasonsData: Season[] = [
             pageNumber: 3,
             title: "Rule-Based AI",
             slug: "rule-based-ai",
-            imageUrl: "/images/notes/s1-e2/s1-e2.3-rule-based-ai.webp",
+            imageUrl: cdnImage("v1789756204/s1-e2-p3-rule-based-ai.webp"),
             caption:
               "Handwritten explanation of rule-based AI, where humans define if/else rules and machines follow them to make decisions.",
           },
@@ -171,7 +177,7 @@ export const seasonsData: Season[] = [
             pageNumber: 4,
             title: "Machine Learning",
             slug: "machine-learning",
-            imageUrl: "/images/notes/s1-e2/s1-e2.4-machine-learning.webp",
+            imageUrl: cdnImage("v1789756205/s1-e2-p4-machine-learning.webp"),
             caption:
               "Handwritten explanation of machine learning, where humans provide examples and training data so machines can learn patterns and make predictions.",
           },
@@ -179,7 +185,7 @@ export const seasonsData: Season[] = [
             pageNumber: 5,
             title: "Deep Learning & Neural Networks",
             slug: "deep-learning-neural-networks",
-            imageUrl: "/images/notes/s1-e2/s1-e2.5-deep-learning.webp",
+            imageUrl: cdnImage("v1789756207/s1-e2-p5-deep-learning.webp"),
             caption:
               "Handwritten explanation of deep learning, neural networks, real-world applications, and how data, computing power, GPUs, and the internet drove the deep learning revolution.",
           },
@@ -187,8 +193,9 @@ export const seasonsData: Season[] = [
             pageNumber: 6,
             title: "Machine Learning vs Deep Learning",
             slug: "machine-learning-vs-deep-learning",
-            imageUrl:
-              "/images/notes/s1-e2/s1-e2.6-difference-machine-learning-vs-deep-learning.webp",
+            imageUrl: cdnImage(
+              "v1789756205/s1-e2-p6-difference-machine-learning-vs-deep-learning.webp"
+            ),
             caption:
               "Handwritten comparison of machine learning and deep learning, covering data requirements, feature engineering, neural networks, workflows, and real-world examples.",
           },
@@ -196,7 +203,7 @@ export const seasonsData: Season[] = [
             pageNumber: 7,
             title: "Computer Vision Revolution",
             slug: "computer-vision-revolution",
-            imageUrl: "/images/notes/s1-e2/s1-e2.7-computer-vision-revolution.webp",
+            imageUrl: cdnImage("v1789756205/s1-e2-p7-computer-vision-revolution.webp"),
             caption:
               "Handwritten explanation of ImageNet and AlexNet, showing how neural networks learned visual patterns and enabled image recognition, self-driving cars, face unlock, X-ray analysis, and product identification.",
           },
@@ -204,7 +211,7 @@ export const seasonsData: Season[] = [
             pageNumber: 8,
             title: "Natural Language Processing",
             slug: "natural-language-processing",
-            imageUrl: "/images/notes/s1-e2/s1-e2.8-natural-language-processing.webp",
+            imageUrl: cdnImage("v1789756205/s1-e2-p8-natural-language-processing.webp"),
             caption:
               "Handwritten explanation of natural language processing, why human language is difficult for machines to understand, context and ambiguity in sentences, and NLP approaches including Bag of Words, n-grams, RNNs, and LSTMs.",
           },
@@ -212,7 +219,7 @@ export const seasonsData: Season[] = [
             pageNumber: 9,
             title: "Transformers & Large Language Models",
             slug: "transformers-large-language-models",
-            imageUrl: "/images/notes/s1-e2/s1-e2.9-transformers-large-language-models.webp",
+            imageUrl: cdnImage("v1789756206/s1-e2-p9-transformers-large-language-models.webp"),
             caption:
               "Handwritten explanation of Transformers and Large Language Models, covering the 2017 'Attention Is All You Need' paper, how Transformers understand word relationships and context, and why large AI models require huge datasets, powerful GPUs, computing infrastructure, researchers, and high energy costs.",
           },
@@ -220,7 +227,7 @@ export const seasonsData: Season[] = [
             pageNumber: 10,
             title: "Generative AI",
             slug: "generative-ai",
-            imageUrl: "/images/notes/s1-e2/s1-e2.10-generative-ai.webp",
+            imageUrl: cdnImage("v1789756206/s1-e2-p10-generative-ai.webp"),
             caption:
               "Handwritten explanation of Generative AI, comparing traditional AI tasks like classification, prediction, and recommendation with AI that creates new content such as poems and images, along with multimodal AI that works with text, images, audio, video, and documents.",
           },
@@ -228,7 +235,7 @@ export const seasonsData: Season[] = [
             pageNumber: 11,
             title: "The ChatGPT Moment & AI Today",
             slug: "chatgpt-moment-ai-today",
-            imageUrl: "/images/notes/s1-e2/s1-e2.11-chat-gpt-moment-multimodal-ai.webp",
+            imageUrl: cdnImage("v1789756206/s1-e2-p11-chat-gpt-moment-multimodal-ai.webp"),
             caption:
               "Handwritten explanation of the ChatGPT moment in November 2022, the rise of the AI model race, multimodal AI across text, images, audio, video, and documents, and how modern AI can think, plan, use APIs and tools, remember context, search the web, write code, work autonomously, and complete tasks.",
           },
@@ -236,7 +243,7 @@ export const seasonsData: Season[] = [
             pageNumber: 12,
             title: "Timeline of AI & The Future of AI",
             slug: "timeline-of-ai-future",
-            imageUrl: "/images/notes/s1-e2/s1-e2.12-timeline-of-ai.webp",
+            imageUrl: cdnImage("v1789756206/s1-e2-p12-timeline-of-ai.webp"),
             caption:
               "Handwritten timeline of AI from Alan Turing and the birth of Artificial Intelligence through rule-based AI, machine learning, deep learning, AlexNet, AlphaGo, Transformers, and ChatGPT, followed by Agentic AI and key industry trends including multimodal AI, multi-agent orchestration, reasoning models, RAG, MCP, and robotics.",
           },
@@ -256,7 +263,7 @@ export const seasonsData: Season[] = [
             pageNumber: 1,
             title: "Google Search vs ChatGPT",
             slug: "google-search-vs-chatgpt",
-            imageUrl: "/images/notes/s1-e3/s1-e3.1-google-search-vs-chatgpt.webp",
+            imageUrl: cdnImage("v1789756825/s1-e3-p1-google-search-vs-chatgpt.webp"),
             caption:
               "Handwritten comparison of Google Search and ChatGPT, explaining how search engines retrieve existing information while ChatGPT generates responses using model knowledge, context, and available tools, along with the risk of AI hallucinations when a question contains false or unsupported information.",
           },
@@ -264,7 +271,7 @@ export const seasonsData: Season[] = [
             pageNumber: 2,
             title: "Search Engines vs LLMs",
             slug: "search-engines-vs-llms",
-            imageUrl: "/images/notes/s1-e3/s1-e3.2-search-engines-vs-llms.webp",
+            imageUrl: cdnImage("v1789756825/s1-e3-p2-search-engines-vs-llms.webp"),
             caption:
               "Handwritten comparison of search engines and Large Language Models (LLMs), explaining how search engines retrieve relevant information from indexed sources while LLMs generate responses by using learned patterns to predict and produce text.",
           },
@@ -272,7 +279,7 @@ export const seasonsData: Season[] = [
             pageNumber: 3,
             title: "How Search Engines Discover New Pages",
             slug: "how-search-engines-discover-new-pages",
-            imageUrl: "/images/notes/s1-e3/s1-e3.3-how-search-engines-discover-new-pages.webp",
+            imageUrl: cdnImage("v1789756825/s1-e3-p3-how-search-engines-discover-new-pages.webp"),
             caption:
               "Handwritten explanation of how search engines discover and index new web pages, covering how crawlers find content, search engines organize information in their index, and how indexed pages can later appear in search results.",
           },
@@ -280,7 +287,7 @@ export const seasonsData: Season[] = [
             pageNumber: 4,
             title: "How LLMs Generate Responses",
             slug: "how-llms-generate-responses",
-            imageUrl: "/images/notes/s1-e3/s1-e3.4-how-llms-generate-responses.webp",
+            imageUrl: cdnImage("v1789756825/s1-e3-p4-how-llms-generate-responses.webp"),
             caption:
               "Handwritten explanation of how Large Language Models generate responses by predicting the next word, using patterns learned from large amounts of training data to understand context and produce relevant text.",
           },
@@ -288,7 +295,7 @@ export const seasonsData: Season[] = [
             pageNumber: 5,
             title: "LLM Knowledge & Knowledge Cutoff",
             slug: "llm-knowledge-and-knowledge-cutoff",
-            imageUrl: "/images/notes/s1-e3/s1-e3.5-llm-knowledge-and-knowledge-cutoff.webp",
+            imageUrl: cdnImage("v1789756825/s1-e3-p5-llm-knowledge-and-knowledge-cutoff.webp"),
             caption:
               "Handwritten explanation of what knowledge an LLM contains, how training adjusts billions of parameters to learn patterns and predict tokens, why an LLM does not store webpages directly, and what a knowledge cutoff means, including why models do not automatically learn new information.",
           },
@@ -296,7 +303,7 @@ export const seasonsData: Season[] = [
             pageNumber: 6,
             title: "Base Model vs AI Assistant",
             slug: "base-model-vs-ai-assistant",
-            imageUrl: "/images/notes/s1-e3/s1-e3.6-base-model-vs-ai-assistant.webp",
+            imageUrl: cdnImage("v1789756825/s1-e3-p6-base-model-vs-ai-assistant.webp"),
             caption:
               "Handwritten comparison of base language models and AI assistants, explaining how base models predict the next token while assistants such as ChatGPT, Claude, and Gemini combine language models with instructions, training, interfaces, tools, safety, and context to understand requests and perform tasks.",
           },
@@ -304,7 +311,9 @@ export const seasonsData: Season[] = [
             pageNumber: 7,
             title: "What Gets Added on Top of the Base Model",
             slug: "what-gets-added-on-top-of-base-model",
-            imageUrl: "/images/notes/s1-e3/s1-e3.7-what-gets-added-on-top-of-the-base-model.webp",
+            imageUrl: cdnImage(
+              "v1789756826/s1-e3-p7-what-gets-added-on-top-of-the-base-model.webp"
+            ),
             caption:
               "Handwritten explanation of the capabilities and controls added on top of a base language model, including web search, files, instruction tuning, human feedback, memory, safety training, retrieval, tools, system instructions, content filters, conversation management, guardrails, and security.",
           },
@@ -312,7 +321,7 @@ export const seasonsData: Season[] = [
             pageNumber: 8,
             title: "Inference vs Training",
             slug: "inference-vs-training",
-            imageUrl: "/images/notes/s1-e3/s1-e3.8-inference-vs-training.webp",
+            imageUrl: cdnImage("v1789756826/s1-e3-p8-inference-vs-training.webp"),
             caption:
               "Handwritten explanation of training and inference in AI, showing how models learn from large amounts of data by making predictions and adjusting weights during training, while inference is the process of using a trained model to process a prompt and generate an output, with a real-world driving example.",
           },
@@ -320,8 +329,9 @@ export const seasonsData: Season[] = [
             pageNumber: 9,
             title: "Why AI Models Produce Confidently Wrong Answers",
             slug: "why-models-confidently-produce-wrong-answers",
-            imageUrl:
-              "/images/notes/s1-e3/s1-e3.9-why-models-confidently-produce-wrong-answers.webp",
+            imageUrl: cdnImage(
+              "v1789756826/s1-e3-p9-why-models-confidently-produce-wrong-answers.webp"
+            ),
             caption:
               "Handwritten explanation of AI hallucinations and why fluent, confident language does not guarantee truth, showing how models can generate incorrect, unsupported, or misleading information and why important AI-generated claims should be verified against reliable evidence.",
           },
@@ -329,7 +339,7 @@ export const seasonsData: Season[] = [
             pageNumber: 10,
             title: "Why Do Hallucinations Happen?",
             slug: "why-do-hallucinations-happen",
-            imageUrl: "/images/notes/s1-e3/s1-e3.10-why-do-hallucinations-happen.webp",
+            imageUrl: cdnImage("v1789756826/s1-e3-p10-why-do-hallucinations-happen.webp"),
             caption:
               "Handwritten explanation of why AI hallucinations happen, covering insufficient or ambiguous information, outdated knowledge, false assumptions, unreliable patterns in training data, the model's tendency to generate helpful answers, and probabilistic text generation that can produce plausible but incorrect information.",
           },
@@ -337,7 +347,7 @@ export const seasonsData: Season[] = [
             pageNumber: 11,
             title: "Types of AI Hallucinations",
             slug: "types-of-ai-hallucinations",
-            imageUrl: "/images/notes/s1-e3/s1-e3.11-types-of-hallucinations.webp",
+            imageUrl: cdnImage("v1789756826/s1-e3-p11-types-of-hallucinations.webp"),
             caption:
               "Handwritten explanation of common types of AI hallucinations, including invented facts, fabricated citations, incorrect combinations of information, outdated facts, false precision, and broken reasoning where a response may sound convincing but contain factual or logical errors.",
           },
