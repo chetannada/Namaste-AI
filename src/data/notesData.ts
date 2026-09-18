@@ -325,6 +325,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of AI hallucinations and why fluent, confident language does not guarantee truth, showing how models can generate incorrect, unsupported, or misleading information and why important AI-generated claims should be verified against reliable evidence.",
           },
+          {
+            pageNumber: 10,
+            title: "Why Do Hallucinations Happen?",
+            slug: "why-do-hallucinations-happen",
+            imageUrl: "/images/notes/s1-e3/s1-e3.10-why-do-hallucinations-happen.webp",
+            caption:
+              "Handwritten explanation of why AI hallucinations happen, covering insufficient or ambiguous information, outdated knowledge, false assumptions, unreliable patterns in training data, the model's tendency to generate helpful answers, and probabilistic text generation that can produce plausible but incorrect information.",
+          },
         ],
       },
     ],

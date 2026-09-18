@@ -91,6 +91,7 @@ Understand how ChatGPT generates answers and whether it truly knows or simply pr
 - 📝 **What Gets Added on Top of the Base Model** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/what-gets-added-on-top-of-base-model)
 - 📝 **Inference vs Training** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/inference-vs-training)
 - 📝 **Why AI Models Confidently Produce Wrong Answers** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-models-confidently-produce-wrong-answers)
+- 📝 **Why Do Hallucinations Happen?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-do-hallucinations-happen)
 
 ## 🌱 Structure of this Project
 
