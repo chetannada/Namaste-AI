@@ -333,6 +333,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of why AI hallucinations happen, covering insufficient or ambiguous information, outdated knowledge, false assumptions, unreliable patterns in training data, the model's tendency to generate helpful answers, and probabilistic text generation that can produce plausible but incorrect information.",
           },
+          {
+            pageNumber: 11,
+            title: "Types of AI Hallucinations",
+            slug: "types-of-ai-hallucinations",
+            imageUrl: "/images/notes/s1-e3/s1-e3.11-types-of-hallucinations.webp",
+            caption:
+              "Handwritten explanation of common types of AI hallucinations, including invented facts, fabricated citations, incorrect combinations of information, outdated facts, false precision, and broken reasoning where a response may sound convincing but contain factual or logical errors.",
+          },
         ],
       },
     ],
