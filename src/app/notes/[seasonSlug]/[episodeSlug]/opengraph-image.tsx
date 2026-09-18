@@ -1,6 +1,4 @@
 import { ImageResponse } from "next/og";
-import { join } from "node:path";
-import sharp from "sharp";
 import { seasonsData, buildEpisodeSlug, getEpisodeBySlug } from "@/data/notesData";
 
 export const size = {
@@ -52,9 +50,11 @@ export default async function Image({
 
   let imageSrc = "";
   if (firstPage) {
-    const imagePath = join(process.cwd(), "public", firstPage.imageUrl);
-    const pngBuffer = await sharp(imagePath).png().toBuffer();
-    imageSrc = `data:image/png;base64,${pngBuffer.toString("base64")}`;
+    const pngUrl = firstPage.imageUrl.replace("/upload/", "/upload/f_png/");
+    const response = await fetch(pngUrl);
+    const arrayBuffer = await response.arrayBuffer();
+    const base64 = Buffer.from(arrayBuffer).toString("base64");
+    imageSrc = `data:image/png;base64,${base64}`;
   }
 
   const epNum = episode.episodeNumber < 10 ? `0${episode.episodeNumber}` : episode.episodeNumber;
