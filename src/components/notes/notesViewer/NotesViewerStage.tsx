@@ -66,6 +66,7 @@ export const NotesViewerStage = ({
                   height={1536}
                   priority
                   loading="eager"
+                  unoptimized
                   draggable={false}
                   className="relative z-10 h-full w-full rounded-2xl object-contain select-none"
                   style={{
@@ -103,6 +104,7 @@ export const NotesViewerStage = ({
               width={1024}
               height={1536}
               priority={offset === 1}
+              unoptimized
             />
           );
         })}
