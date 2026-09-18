@@ -101,23 +101,16 @@ Namaste-AI/
 │
 ├── 📁 public/                          # Static assets served at root
 │   └── 📁 images/
-│       ├── 🖼️ hero-ai.webp             # Hero section background image
-│       └── 📁 notes/                   # Handwritten note images (per episode)
-│           ├── 📁 s1-e1/               # Season 1 · Episode 01 notes
-│           │   └── s1-e1-welcome-to-namaste-ai.webp
-│           ├── 📁 s1-e2/               # Season 1 · Episode 02 notes
-│           │   ├── s1-e2.1-what-is-artificial-intelligence.webp
-│           │   ├── s1-e2.2-can-machines-think.webp
-│           │   ├── s1-e2.3-rule-based-ai.webp
-│           │   └── s1-e2.4-machine-learning.webp
-│           └── 📁 s1-e3/               # Season 1 · Episode 03 notes
-│               └── s1-e3.1-google-search-vs-chatgpt.webp
+│       └── 🖼️ hero-ai.webp             # Hero section background image
 │
 ├── 📁 src/                             # Application source code
 │   ├── 📁 app/                         # Next.js App Router (pages & layouts)
 │   │   ├── 🎨 globals.css              # Global styles, theme tokens, design system
 │   │   ├── 🖼️ icon.jpg                 # Favicon / app icon
 │   │   ├── 📄 layout.tsx               # Root layout (metadata, fonts, providers)
+│   │   ├── 📄 page.tsx                 # Landing / home page
+│   │   ├── 🤖 robots.ts                # SEO robots.txt generation
+│   │   ├── 🗺️ sitemap.ts               # Dynamic XML sitemap generation
 │   │   └── 📁 notes/
 │   │       ├── 📄 page.tsx             # Redirects to default season (/notes)
 │   │       └── 📁 [seasonSlug]/        # Season routes (/notes/season-1)
@@ -142,7 +135,13 @@ Namaste-AI/
 │   │       ├── 🧩 SeasonBanner.tsx     # Active season info banner
 │   │       ├── 🧩 NotesFilter.tsx      # Search bar + topic filter chips
 │   │       ├── 🧩 EpisodeCard.tsx      # Episode card with thumbnail & metadata
-│   │       └── 🧩 NotesViewerModal.tsx # Fullscreen notes viewer (zoom, nav, download)
+│   │       ├── 🧩 NotesViewerModal.tsx # Fullscreen modal container for viewer
+│   │       └── 📁 notesViewer/         # Modular note viewer components
+│   │           ├── 🧩 NotesViewerHeader.tsx # Header controls (zoom, download, close)
+│   │           ├── 🧩 NotesViewerStage.tsx  # Main interactive handwritten note view
+│   │           ├── 🧩 NotesViewerFooter.tsx # Page thumbnail navigation strip
+│   │           ├── ⚙️ useNotesViewer.ts     # Viewer state, zoom, pan & keyboard nav hook
+│   │           └── ⚙️ notesViewerUtils.ts   # Viewer helper functions & constants
 │   │
 │   ├── 📁 context/
 │   │   └── 🔧 ThemeContext.tsx         # Light / Dark theme provider
@@ -156,10 +155,9 @@ Namaste-AI/
 ├── ⚙️ postcss.config.mjs               # PostCSS / Tailwind CSS config
 ├── ⚙️ .prettierrc                      # Prettier code formatter config
 └── 📦 package.json                     # Dependencies & scripts
-
 ```
 
-> 💡 **Note images** are organized by season and episode (`s1-e1/`, `s1-e2/`, ...) so adding new episodes is as simple as dropping images into the right folder and updating `notesData.ts`.
+> 💡 **Note images** are hosted on Cloudinary CDN and managed dynamically in `notesData.ts` via the `cdnImage` helper, keeping the repository lightweight.
 
 ## 🎻 Prerequisites
 
