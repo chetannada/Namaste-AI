@@ -320,7 +320,8 @@ export const seasonsData: Season[] = [
             pageNumber: 9,
             title: "Why AI Models Produce Confidently Wrong Answers",
             slug: "why-models-confidently-produce-wrong-answers",
-            imageUrl: "/images/notes/s1-e3.9-why-models-confidently-produce-wrong-answers.webp",
+            imageUrl:
+              "/images/notes/s1-e3/s1-e3.9-why-models-confidently-produce-wrong-answers.webp",
             caption:
               "Handwritten explanation of AI hallucinations and why fluent, confident language does not guarantee truth, showing how models can generate incorrect, unsupported, or misleading information and why important AI-generated claims should be verified against reliable evidence.",
           },
