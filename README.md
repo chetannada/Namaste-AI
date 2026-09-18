@@ -1,22 +1,22 @@
 # Namaste AI 🚀 — AI Course Notes, Projects & Learning Journey
 
-A hands-on **Namaste AI** repository created while learning the **[Namaste AI course](https://namastedev.com/learn/namaste-ai?_aff=946684804112)** by **Akshay Saini**, Founder of **[NamasteDev](https://namastedev.com/?_aff=946684804112)**. This repository contains handwritten AI notes, AI concepts, LLM learning resources, RAG, AI agents, MCP, Generative AI experiments, and real-world AI projects.
+A hands-on **Namaste AI** repository created while learning the **[Namaste AI course](https://namastedev.com/learn/namaste-ai?_aff=946684804112)** by **Akshay Saini**, Founder of **[NamasteDev](https://namastedev.com/?_aff=946684804112)**. This repository contains digital handwritten AI notes, AI concepts, LLM learning resources, RAG, AI agents, MCP, Generative AI experiments, and real-world AI projects.
 
 > 💡 **The goal is not just to use AI tools.**
 >
 > **Understand how AI works → Build with AI → Learn by doing → Share the journey.** 🚀
 
-### 🌐 Live Demo
+## 🌐 Live Demo - **[namaste-ai-dev.vercel.app](https://namaste-ai-dev.vercel.app)**
 
-🔗 **[namaste-ai-dev.vercel.app](https://namaste-ai-dev.vercel.app)**
+> ✍️ **Take Notes** • 💡 **Learn concepts** • 🛠️ **Build Projects** • 🚀 **Learn in Public**
 
-✍️ **Take Notes** • 💡 **Learn concepts** • 🛠️ **Build Projects** • 🚀 **Learn in Public**
 
-## 📚 Course Roadmap
+# 📚 Course Roadmap
 
 > 🚀 **Learn AI step by step — from understanding the foundations to building real-world AI applications.**
->
-> ✍️ Along the way, I'm also creating and sharing my **handwritten notes** so my learning stays public and useful to others.
+
+> ✍️ Along the way, I'm also creating and sharing my **Digital Handwritten Notes** so my learning stays public and useful to others.
+
 
 ## 🧠 Season 1 — Inside the Mind of AI
 
