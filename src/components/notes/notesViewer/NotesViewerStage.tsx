@@ -46,23 +46,37 @@ export const NotesViewerStage = ({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.25, ease: "easeOut" }}
-            className="relative w-max rounded-2xl border border-border bg-surface/40 shadow-2xl shadow-black/60 backdrop-blur-xs"
+            className="relative overflow-hidden rounded-2xl border border-border bg-surface/40 shadow-2xl shadow-black/60 backdrop-blur-xs"
+            style={
+              currentPage?.imageUrl
+                ? {
+                    height: `calc(${BASE_NOTE_HEIGHT} * ${zoomLevel})`,
+                    aspectRatio: "1024 / 1536",
+                  }
+                : undefined
+            }
           >
             {currentPage?.imageUrl ? (
-              <Image
-                src={currentPage.imageUrl}
-                alt={currentPage.title || `Handwritten notes page ${currentPageIndex + 1}`}
-                width={1200}
-                height={900}
-                priority
-                draggable={false}
-                className="w-auto rounded-2xl object-contain select-none"
-                style={{
-                  height: `calc(${BASE_NOTE_HEIGHT} * ${zoomLevel})`,
-                  maxHeight: "none",
-                  maxWidth: "none",
-                }}
-              />
+              <>
+                <div className="absolute inset-0 animate-pulse bg-skeleton/60" />
+                <Image
+                  src={currentPage.imageUrl}
+                  alt={currentPage.title || `Handwritten notes page ${currentPageIndex + 1}`}
+                  width={1024}
+                  height={1536}
+                  priority
+                  loading="eager"
+                  unoptimized
+                  draggable={false}
+                  className="relative z-10 h-full w-full rounded-2xl object-contain select-none"
+                  style={{
+                    height: `calc(${BASE_NOTE_HEIGHT} * ${zoomLevel})`,
+                    aspectRatio: "1024 / 1536",
+                    maxHeight: "none",
+                    maxWidth: "none",
+                  }}
+                />
+              </>
             ) : (
               <div className="flex h-96 w-96 flex-col items-center justify-center gap-3 text-text-muted">
                 <FiBookOpen size={40} className="text-primary/60" />
@@ -71,6 +85,29 @@ export const NotesViewerStage = ({
             )}
           </motion.div>
         </div>
+      </div>
+
+      {/* Preload adjacent note pages for instant navigation */}
+      <div
+        className="pointer-events-none fixed left-[-9999px] top-[-9999px] h-px w-px opacity-0"
+        aria-hidden="true"
+      >
+        {[-1, 1, 2].map(offset => {
+          const targetIndex = currentPageIndex + offset;
+          const targetPage = episode.pages[targetIndex];
+          if (!targetPage?.imageUrl) return null;
+          return (
+            <Image
+              key={`preload-${episode.id}-${targetIndex}`}
+              src={targetPage.imageUrl}
+              alt=""
+              width={1024}
+              height={1536}
+              priority={offset === 1}
+              unoptimized
+            />
+          );
+        })}
       </div>
 
       {totalPages > 1 && (

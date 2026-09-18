@@ -114,16 +114,23 @@ export const NotesViewerHeader = ({
           </a>
         )}
 
-        {currentPage?.imageUrl && (
-          <a
-            href={currentPage.imageUrl}
-            download={`Namaste-AI-S${season?.seasonNumber}-EP${episode.episodeNumber}-Page${currentPageIndex + 1}.webp`}
-            className="inline-flex h-7 w-7 sm:h-9 sm:w-9 cursor-pointer items-center justify-center rounded-lg sm:rounded-xl border border-border bg-surface/70 text-text-muted hover:bg-hover hover:text-primary transition-colors"
-            title="Download Notes"
-          >
-            <FiDownload className="size-3.5 sm:size-4" />
-          </a>
-        )}
+        {currentPage?.imageUrl && (() => {
+          const rawFilename = currentPage.imageUrl.split("/").pop()?.split("?")[0] || "note.webp";
+          const downloadUrl = currentPage.imageUrl.includes("/upload/")
+            ? currentPage.imageUrl.replace("/upload/", "/upload/fl_attachment/")
+            : currentPage.imageUrl;
+
+          return (
+            <a
+              href={downloadUrl}
+              download={rawFilename}
+              className="inline-flex h-7 w-7 sm:h-9 sm:w-9 cursor-pointer items-center justify-center rounded-lg sm:rounded-xl border border-border bg-surface/70 text-text-muted hover:bg-hover hover:text-primary transition-colors"
+              title="Download Notes"
+            >
+              <FiDownload className="size-3.5 sm:size-4" />
+            </a>
+          );
+        })()}
 
         <button
           type="button"
