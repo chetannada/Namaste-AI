@@ -93,6 +93,7 @@ Understand how ChatGPT generates answers and whether it truly knows or simply pr
 - 📝 **Why AI Models Confidently Produce Wrong Answers** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-models-confidently-produce-wrong-answers)
 - 📝 **Why Do Hallucinations Happen?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-do-hallucinations-happen)
 - 📝 **Types of AI Hallucinations** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/types-of-ai-hallucinations)
+- 📝 **Why Do Models Sometimes Say 'I Don't Know'?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-do-models-sometimes-say-i-dont-know)
 
 ## 🌱 Structure of this Project
 

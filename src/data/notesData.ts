@@ -351,6 +351,16 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of common types of AI hallucinations, including invented facts, fabricated citations, incorrect combinations of information, outdated facts, false precision, and broken reasoning where a response may sound convincing but contain factual or logical errors.",
           },
+          {
+            pageNumber: 12,
+            title: 'Why Do Models Sometimes Say "I Don\'t Know"?',
+            slug: "why-do-models-sometimes-say-i-dont-know",
+            imageUrl: cdnImage(
+              "v1789756827/s1-e3-p12-why-do-models-sometimes-say-i-don-t-know.webp"
+            ),
+            caption:
+              'Handwritten explanation of why AI assistants may say "I don\'t know" or refuse to answer, covering assistant training, system instructions, weak learned patterns, safety rules, tool requirements for current or external information, and how prompt wording can affect the response.',
+          },
         ],
       },
     ],
