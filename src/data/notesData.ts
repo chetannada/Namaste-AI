@@ -369,6 +369,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of the confidence illusion in AI, showing why confident and professional language does not guarantee truth, along with practical ways to reduce hallucinations by separating facts from assumptions, asking for uncertainty, requesting reliable sources, and using web search to verify current information.",
           },
+          {
+            pageNumber: 14,
+            title: "Base Model Without Tools",
+            slug: "base-model-without-tools",
+            imageUrl: cdnImage("v1789961331/s1-e3-p14-base-model-without-tools.webp"),
+            caption:
+              "Handwritten explanation of how a base model processes prompts using learned patterns to generate text, why some questions require external tools for current or precise information, and how tools such as web search, calculators, code execution, weather, location, calendars, email, databases, internal documents, files, and APIs extend AI capabilities.",
+          },
         ],
       },
     ],
