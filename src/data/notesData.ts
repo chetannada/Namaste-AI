@@ -361,6 +361,14 @@ export const seasonsData: Season[] = [
             caption:
               'Handwritten explanation of why AI assistants may say "I don\'t know" or refuse to answer, covering assistant training, system instructions, weak learned patterns, safety rules, tool requirements for current or external information, and how prompt wording can affect the response.',
           },
+          {
+            pageNumber: 13,
+            title: "The Confidence Illusion & Reducing Hallucinations",
+            slug: "confidence-illusion-reducing-hallucinations",
+            imageUrl: cdnImage("v1789961330/s1-e3-p13-the-confidence-illusion.webp"),
+            caption:
+              "Handwritten explanation of the confidence illusion in AI, showing why confident and professional language does not guarantee truth, along with practical ways to reduce hallucinations by separating facts from assumptions, asking for uncertainty, requesting reliable sources, and using web search to verify current information.",
+          },
         ],
       },
     ],
