@@ -377,6 +377,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of how a base model processes prompts using learned patterns to generate text, why some questions require external tools for current or precise information, and how tools such as web search, calculators, code execution, weather, location, calendars, email, databases, internal documents, files, and APIs extend AI capabilities.",
           },
+          {
+            pageNumber: 15,
+            title: "Web Search + LLMs",
+            slug: "web-search-llms",
+            imageUrl: cdnImage("v1789961331/s1-e3-p15-web-search-llms.webp"),
+            caption:
+              "Handwritten explanation of how web search provides retrieval of relevant external information while an LLM generates a useful response from the retrieved evidence, showing how search and language generation work together to provide clearer and more up-to-date answers.",
+          },
         ],
       },
     ],
