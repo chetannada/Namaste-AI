@@ -385,6 +385,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of how web search provides retrieval of relevant external information while an LLM generates a useful response from the retrieved evidence, showing how search and language generation work together to provide clearer and more up-to-date answers.",
           },
+          {
+            pageNumber: 16,
+            title: "What Is RAG?",
+            slug: "what-is-rag",
+            imageUrl: cdnImage("v1789961331/s1-e3-p16-what-is-rag.webp"),
+            caption:
+              "Handwritten explanation of Retrieval-Augmented Generation (RAG), showing how relevant information is retrieved and added to the model's context before generating an answer, with an airline chatbot example and why retrieval tools can reduce limitations without guaranteeing perfect answers.",
+          },
         ],
       },
     ],
