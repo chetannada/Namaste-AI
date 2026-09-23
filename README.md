@@ -6,6 +6,8 @@ A hands-on **Namaste AI** repository created while learning the **[Namaste AI co
 >
 > **Understand how AI works → Build with AI → Learn by doing → Share the journey.** 🚀
 
+---
+
 ## 🌐 Live Demo - **[namaste-ai-dev.vercel.app](https://namaste-ai-dev.vercel.app)**
 
 > ✍️ **Take Notes** • 💡 **Learn concepts** • 🛠️ **Build Projects** • 🚀 **Learn in Public**
@@ -31,9 +33,9 @@ A hands-on **Namaste AI** repository created while learning the **[Namaste AI co
 - 🗺️ Course roadmap
 - 🚀 What we'll build and explore
 
-✍️ **Handwritten Notes:**
-
-- 📝 **Roadmap about Namaste AI Course** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-1-welcome-to-namaste-ai/roadmap-about-namaste-ai-course)
+|  #  | ✍️ Handwritten Notes                |                                                              Action                                                              |
+| :-: | :---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------: |
+| 01  | **Roadmap about Namaste AI Course** | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-1-welcome-to-namaste-ai/roadmap-about-namaste-ai-course) |
 
 ---
 
@@ -52,20 +54,20 @@ Explore the evolution of Artificial Intelligence and the breakthroughs that shap
 - 🤖 Transformers & LLMs
 - ✨ Generative AI
 
-✍️ **Handwritten Notes:**
-
-- 📝 **What Is Artificial Intelligence?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/what-is-artificial-intelligence)
-- 📝 **The Evolution of Artificial Intelligence** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/the-evolution-of-artificial-intelligence)
-- 📝 **Rule-Based AI** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/rule-based-ai)
-- 📝 **Machine Learning** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/machine-learning)
-- 📝 **Deep Learning & Neural Networks** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/deep-learning-neural-networks)
-- 📝 **Machine Learning vs Deep Learning** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/machine-learning-vs-deep-learning)
-- 📝 **Computer Vision Revolution** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/computer-vision-revolution)
-- 📝 **Natural Language Processing** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/natural-language-processing)
-- 📝 **Transformers & Large Language Models** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/transformers-large-language-models)
-- 📝 **Generative AI** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/generative-ai)
-- 📝 **The ChatGPT Moment & AI Today** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/the-chatgpt-moment-ai-today)
-- 📝 **Timeline of AI & The Future of AI** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/timeline-of-ai-future)
+|  #  | ✍️ Handwritten Notes                         |                                                                 Action                                                                  |
+| :-: | :------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------: |
+| 01  | **What Is Artificial Intelligence?**         |     [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/what-is-artificial-intelligence)      |
+| 02  | **The Evolution of Artificial Intelligence** | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/the-evolution-of-artificial-intelligence) |
+| 03  | **Rule-Based AI**                            |              [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/rule-based-ai)               |
+| 04  | **Machine Learning**                         |             [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/machine-learning)             |
+| 05  | **Deep Learning & Neural Networks**          |      [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/deep-learning-neural-networks)       |
+| 06  | **Machine Learning vs Deep Learning**        |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/machine-learning-vs-deep-learning)     |
+| 07  | **Computer Vision Revolution**               |        [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/computer-vision-revolution)        |
+| 08  | **Natural Language Processing**              |       [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/natural-language-processing)        |
+| 09  | **Transformers & Large Language Models**     |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/transformers-large-language-models)    |
+| 10  | **Generative AI**                            |              [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/generative-ai)               |
+| 11  | **The ChatGPT Moment & AI Today**            |       [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/the-chatgpt-moment-ai-today)        |
+| 12  | **Timeline of AI & The Future of AI**        |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-2-the-evolution-of-ai/timeline-of-ai-future)           |
 
 ---
 
@@ -83,25 +85,25 @@ Understand how ChatGPT generates answers and whether it truly knows or simply pr
 - 🛠️ AI Tools
 - 📚 RAG
 
-✍️ **Handwritten Notes:**
-
-- 📝 **Google Search vs ChatGPT** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/google-search-vs-chatgpt)
-- 📝 **Search Engines vs LLMs** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/search-engines-vs-llms)
-- 📝 **How Search Engines Discover New Pages** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/how-search-engines-discover-new-pages)
-- 📝 **How LLMs Generate Responses** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/how-llms-generate-responses)
-- 📝 **LLM Knowledge & Knowledge Cutoff** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/llm-knowledge-and-knowledge-cutoff)
-- 📝 **Base Model vs AI Assistant** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/base-model-vs-ai-assistant)
-- 📝 **What Gets Added on Top of the Base Model** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/what-gets-added-on-top-of-base-model)
-- 📝 **Inference vs Training** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/inference-vs-training)
-- 📝 **Why AI Models Confidently Produce Wrong Answers** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-models-confidently-produce-wrong-answers)
-- 📝 **Why Do Hallucinations Happen?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-do-hallucinations-happen)
-- 📝 **Types of AI Hallucinations** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/types-of-ai-hallucinations)
-- 📝 **Why Do Models Sometimes Say 'I Don't Know'?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-do-models-sometimes-say-i-dont-know)
-- 📝 **The Confidence Illusion & Reducing Hallucinations** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/confidence-illusion-reducing-hallucinations)
-- 📝 **Base Model Without Tools** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/base-model-without-tools)
-- 📝 **Web Search + LLMs** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/web-search-llms)
-- 📝 **What Is RAG?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/what-is-rag)
-- 📝 **Does the Model Know Itself?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/does-the-model-know-itself)
+|  #  | ✍️ Handwritten Notes                                  |                                                                           Action                                                                           |
+| :-: | :---------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 01  | **Google Search vs ChatGPT**                          |           [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/google-search-vs-chatgpt)           |
+| 02  | **Search Engines vs LLMs**                            |            [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/search-engines-vs-llms)            |
+| 03  | **How Search Engines Discover New Pages**             |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/how-search-engines-discover-new-pages)     |
+| 04  | **How LLMs Generate Responses**                       |         [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/how-llms-generate-responses)          |
+| 05  | **LLM Knowledge & Knowledge Cutoff**                  |      [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/llm-knowledge-and-knowledge-cutoff)      |
+| 06  | **Base Model vs AI Assistant**                        |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/base-model-vs-ai-assistant)          |
+| 07  | **What Gets Added on Top of the Base Model**          |     [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/what-gets-added-on-top-of-base-model)     |
+| 08  | **Inference vs Training**                             |            [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/inference-vs-training)             |
+| 09  | **Why AI Models Confidently Produce Wrong Answers**   | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-models-confidently-produce-wrong-answers) |
+| 10  | **Why Do Hallucinations Happen?**                     |         [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-do-hallucinations-happen)         |
+| 11  | **Types of AI Hallucinations**                        |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/types-of-ai-hallucinations)          |
+| 12  | **Why Do Models Sometimes Say 'I Don't Know'?**       |   [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/why-do-models-sometimes-say-i-dont-know)    |
+| 13  | **The Confidence Illusion & Reducing Hallucinations** | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/confidence-illusion-reducing-hallucinations)  |
+| 14  | **Base Model Without Tools**                          |           [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/base-model-without-tools)           |
+| 15  | **Web Search + LLMs**                                 |               [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/web-search-llms)                |
+| 16  | **What Is RAG?**                                      |                 [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/what-is-rag)                  |
+| 17  | **Does the Model Know Itself?**                       |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/does-the-model-know-itself)          |
 
 ---
 
@@ -116,9 +118,11 @@ Discover how Large Language Models represent, process, and understand language b
 - 📍 Positional Encoding
 - 🪟 Context Window
 
-✍️ **Handwritten Notes:**
+|  #  | ✍️ Handwritten Notes                              |                                                                        Action                                                                        |
+| :-: | :------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 01  | **Computers cannot understand Words Like Humans** | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/computers-cannot-understand-words-like-humans) |
 
-- 📝 **Computers cannot understand Words Like Humans** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/computers-cannot-understand-words-like-humans)
+---
 
 ## 🌱 Structure of this Project
 
