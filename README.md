@@ -97,6 +97,7 @@ Understand how ChatGPT generates answers and whether it truly knows or simply pr
 - 📝 **The Confidence Illusion & Reducing Hallucinations** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/confidence-illusion-reducing-hallucinations)
 - 📝 **Base Model Without Tools** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/base-model-without-tools)
 - 📝 **Web Search + LLMs** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/web-search-llms)
+- 📝 **What Is RAG?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/what-is-rag)
 
 ## 🌱 Structure of this Project
 
