@@ -393,6 +393,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of Retrieval-Augmented Generation (RAG), showing how relevant information is retrieved and added to the model's context before generating an answer, with an airline chatbot example and why retrieval tools can reduce limitations without guaranteeing perfect answers.",
           },
+          {
+            pageNumber: 17,
+            title: "Does the Model Know Itself?",
+            slug: "does-the-model-know-itself",
+            imageUrl: cdnImage("v1789961331/s1-e3-p17-does-the-model-know-itself.webp"),
+            caption:
+              "Handwritten explanation of how an AI model's knowledge about itself can come from training, conversation context, system instructions, and tools, and why it may not have complete knowledge of its exact version, parameters, or runtime environment.",
+          },
         ],
       },
     ],
