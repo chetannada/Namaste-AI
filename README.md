@@ -75,10 +75,13 @@ Understand how ChatGPT generates answers and whether it truly knows or simply pr
 
 **What you'll learn**
 
-- 🔍 Google Search vs ChatGPT
-- 🧠 How ChatGPT generates responses
+- 🌐 Search Engines vs LLMs
+- 🧠 How LLMs Generate Responses
+- ⏳ LLM Knowledge Cutoff
+- 🤖 Base Model
 - ⚠️ AI Hallucinations
-- 🔮 Next Token Prediction
+- 🛠️ AI Tools
+- 📚 RAG
 
 ✍️ **Handwritten Notes:**
 
