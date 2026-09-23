@@ -256,7 +256,17 @@ export const seasonsData: Season[] = [
         slug: "does-chatgpt-know-or-does-it-guess",
         description:
           "Understand how ChatGPT generates answers and whether it truly knows or simply predicts what comes next",
-        topics: ["ChatGPT", "Search vs Generation", "AI Hallucinations", "Next Token Prediction"],
+        topics: [
+          "ChatGPT",
+          "Search Engines vs LLMs",
+          "How LLMs Generate Responses",
+          "Knowledge Cutoff",
+          "Base Model vs AI Assistant",
+          "Inference vs Training",
+          "AI Hallucinations",
+          "Tools & Web Search",
+          "RAG",
+        ],
         isAvailable: true,
         pages: [
           {
