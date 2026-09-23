@@ -100,6 +100,23 @@ Understand how ChatGPT generates answers and whether it truly knows or simply pr
 - 📝 **What Is RAG?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/what-is-rag)
 - 📝 **Does the Model Know Itself?** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-3-does-chatgpt-know-or-does-it-guess/does-the-model-know-itself)
 
+---
+
+### 🔐 Episode 04 — The Secret Language of LLMs
+
+Discover how Large Language Models represent, process, and understand language behind the scenes.
+
+**What you'll learn**
+
+- 🧩 Tokens & Tokenization
+- 🌐 Word Embeddings
+- 📍 Positional Encoding
+- 🪟 Context Window
+
+✍️ **Handwritten Notes:**
+
+- 📝 **Computers cannot understand Words Like Humans** [View Notes 🚀](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/computers-cannot-understand-words-like-humans)
+
 ## 🌱 Structure of this Project
 
 ```

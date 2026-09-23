@@ -403,6 +403,28 @@ export const seasonsData: Season[] = [
           },
         ],
       },
+      {
+        id: "s1-ep4",
+        episodeNumber: 4,
+        title: "The Secret Language of LLMs",
+        slug: "the-secret-language-of-llms",
+        description:
+          "Discover how Large Language Models represent, process, and understand language behind the scenes.",
+        topics: ["Tokens", "Embeddings", "Attention", "Context Window"],
+        isAvailable: true,
+        pages: [
+          {
+            pageNumber: 1,
+            title: "Computers Cannot Understand Words Like Humans",
+            slug: "computers-cannot-understand-words-like-humans",
+            imageUrl: cdnImage(
+              "v1790180974/s1-e4-p1-computers-cannot-understand-words-like-humans.webp"
+            ),
+            caption:
+              "Handwritten explanation of how LLMs process text through tokenization, token IDs, and numerical representations, showing how text is broken into smaller tokens before a neural network repeatedly predicts the next token to generate a response.",
+          },
+        ],
+      },
     ],
   },
   {
