@@ -246,7 +246,7 @@ Please follow our coding standards:
 
 ## 📄 License
 
-MIT License
+This project is licensed under the [MIT License](LICENSE).
 
 ## 🤝 Let's Connect
 
