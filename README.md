@@ -121,6 +121,7 @@ Discover how Large Language Models represent, process, and understand language b
 |  #  | ✍️ Handwritten Notes                              |                                                                        Action                                                                        |
 | :-: | :------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 01  | **Computers cannot understand Words Like Humans** | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/computers-cannot-understand-words-like-humans) |
+| 02  | **What Is a Token and Tokenizer?**                |         [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-a-token-and-tokenizer)         |
 
 ---
 

@@ -433,6 +433,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of how LLMs process text through tokenization, token IDs, and numerical representations, showing how text is broken into smaller tokens before a neural network repeatedly predicts the next token to generate a response.",
           },
+          {
+            pageNumber: 2,
+            title: "What Is a Token and Tokenizer?",
+            slug: "what-is-a-token-and-tokenizer",
+            imageUrl: cdnImage("v1790520542/s1-e4-p2-what-is-a-token-and-tokenizer.webp"),
+            caption:
+              "Handwritten explanation of tokens and tokenizers, showing how text is split into smaller pieces, how each token is assigned a token ID, and how tokenizers encode text into model input and decode token IDs back into text, with examples and a LEGO-piece analogy.",
+          },
         ],
       },
     ],
