@@ -441,6 +441,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of tokens and tokenizers, showing how text is split into smaller pieces, how each token is assigned a token ID, and how tokenizers encode text into model input and decode token IDs back into text, with examples and a LEGO-piece analogy.",
           },
+          {
+            pageNumber: 3,
+            title: "Words vs Characters vs Tokens",
+            slug: "words-vs-characters-vs-tokens",
+            imageUrl: cdnImage("v1790520542/s1-e4-p3-words-vs-characters-vs-tokens.webp"),
+            caption:
+              "Handwritten explanation comparing words, characters, and tokens, showing why one word can become multiple tokens, how each token is represented by a token ID, and why token counts can differ across AI models because different models may use different tokenizers.",
+          },
         ],
       },
     ],
