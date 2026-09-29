@@ -449,6 +449,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation comparing words, characters, and tokens, showing why one word can become multiple tokens, how each token is represented by a token ID, and why token counts can differ across AI models because different models may use different tokenizers.",
           },
+          {
+            pageNumber: 4,
+            title: "Why Do Models Use Subword Tokenization?",
+            slug: "why-do-models-use-subword-tokenization",
+            imageUrl: cdnImage("v1790520545/s1-e4-p4-why-do-models-use-subword-tokenization.webp"),
+            caption:
+              'Handwritten explanation of whole-word, character, and subword tokenization, showing why subwords provide a balance between vocabulary size and sequence length by breaking words into reusable pieces such as "un", "trust", and "able".',
+          },
         ],
       },
     ],
