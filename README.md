@@ -124,6 +124,7 @@ Discover how Large Language Models represent, process, and understand language b
 | 02  | **What Is a Token and Tokenizer?**                |         [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-a-token-and-tokenizer)         |
 | 03  | **Words vs Characters vs Tokens**                 |         [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/words-vs-characters-vs-tokens)         |
 | 04  | **Why Do Models Use Subword Tokenization?**       |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-do-models-use-subword-tokenization)     |
+| 05  | **Why Does Every LLM Have Its Own Vocabulary?**   |  [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-does-every-llm-have-its-own-vocabulary)   |
 
 ---
 
