@@ -467,6 +467,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of tokenizer vocabulary, showing how tokens and token IDs work together to convert text into numerical sequences, why each tokenizer has its own vocabulary, and how different AI models can split the same word into different tokens.",
           },
+          {
+            pageNumber: 6,
+            title: "What Is Byte Pair Encoding (BPE)?",
+            slug: "what-is-byte-pair-encoding",
+            imageUrl: cdnImage("v1790704026/s1-e4-p6-what-is-byte-pair-encoding.webp"),
+            caption:
+              'Handwritten explanation of Byte Pair Encoding (BPE), showing how tokenizers repeatedly merge frequently occurring neighboring pieces to create reusable vocabulary tokens, with examples such as "low", "lower", and "lowest", and how common subword pieces can be reused across different words.',
+          },
         ],
       },
     ],
