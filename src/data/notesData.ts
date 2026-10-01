@@ -457,6 +457,16 @@ export const seasonsData: Season[] = [
             caption:
               'Handwritten explanation of whole-word, character, and subword tokenization, showing why subwords provide a balance between vocabulary size and sequence length by breaking words into reusable pieces such as "un", "trust", and "able".',
           },
+          {
+            pageNumber: 5,
+            title: "Why Does Every LLM Have Its Own Vocabulary?",
+            slug: "why-does-every-llm-have-its-own-vocabulary",
+            imageUrl: cdnImage(
+              "v1790704028/s1-e4-p5-why-does-every-llm-have-its-own-vocabulary.webp"
+            ),
+            caption:
+              "Handwritten explanation of tokenizer vocabulary, showing how tokens and token IDs work together to convert text into numerical sequences, why each tokenizer has its own vocabulary, and how different AI models can split the same word into different tokens.",
+          },
         ],
       },
     ],
