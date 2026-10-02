@@ -483,6 +483,16 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten comparison of BPE, WordPiece, and Unigram tokenization, explaining how BPE merges frequent neighboring pieces, WordPiece selects useful vocabulary pieces, and Unigram starts with many possible pieces and removes less useful ones, with easy real-world analogies.",
           },
+          {
+            pageNumber: 8,
+            title: "Token Boundaries Are Not Meaning Boundaries",
+            slug: "token-boundaries-not-meaning-boundaries",
+            imageUrl: cdnImage(
+              "v1790959523/s1-e4-p8-what-does-token-boundaries-are-not-meaning-boundaries.webp"
+            ),
+            caption:
+              "Handwritten explanation of why token boundaries do not represent meaning boundaries, showing how sentences with similar character counts can produce different token counts depending on vocabulary patterns, familiarity, and how efficiently the tokenizer can represent the text.",
+          },
         ],
       },
     ],
