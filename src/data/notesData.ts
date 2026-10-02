@@ -475,6 +475,14 @@ export const seasonsData: Season[] = [
             caption:
               'Handwritten explanation of Byte Pair Encoding (BPE), showing how tokenizers repeatedly merge frequently occurring neighboring pieces to create reusable vocabulary tokens, with examples such as "low", "lower", and "lowest", and how common subword pieces can be reused across different words.',
           },
+          {
+            pageNumber: 7,
+            title: "BPE vs WordPiece vs Unigram",
+            slug: "bpe-vs-wordpiece-vs-unigram",
+            imageUrl: cdnImage("v1790959523/s1-e4-p7-bpe-vs-word-piece-vs-unigram.webp"),
+            caption:
+              "Handwritten comparison of BPE, WordPiece, and Unigram tokenization, explaining how BPE merges frequent neighboring pieces, WordPiece selects useful vocabulary pieces, and Unigram starts with many possible pieces and removes less useful ones, with easy real-world analogies.",
+          },
         ],
       },
     ],
