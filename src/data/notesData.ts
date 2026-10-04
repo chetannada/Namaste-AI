@@ -493,6 +493,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of why token boundaries do not represent meaning boundaries, showing how sentences with similar character counts can produce different token counts depending on vocabulary patterns, familiarity, and how efficiently the tokenizer can represent the text.",
           },
+          {
+            pageNumber: 9,
+            title: "English vs Other Languages",
+            slug: "english-vs-other-languages",
+            imageUrl: cdnImage("v1790976709/s1-e4-p9-english-vs-other-languages.webp"),
+            caption:
+              "Handwritten comparison of English, Hindi, Hinglish, and mixed-script text, showing how sentences with similar meanings can require different numbers of tokens because tokenizers process character sequences and vocabulary pieces differently.",
+          },
         ],
       },
     ],

@@ -128,6 +128,7 @@ Discover how Large Language Models represent, process, and understand language b
 | 06  | **What Is Byte Pair Encoding (BPE)?**             |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-byte-pair-encoding)           |
 | 07  | **BPE vs WordPiece vs Unigram**                   |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/bpe-vs-wordpiece-vs-unigram)          |
 | 08  | **Token Boundaries Are Not Meaning Boundaries**   |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/token-boundaries-not-meaning-boundaries)    |
+| 09  | **English vs Other Languages**                    |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/english-vs-other-languages)           |
 
 ---
 
