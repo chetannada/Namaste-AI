@@ -501,6 +501,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten comparison of English, Hindi, Hinglish, and mixed-script text, showing how sentences with similar meanings can require different numbers of tokens because tokenizers process character sequences and vocabulary pieces differently.",
           },
+          {
+            pageNumber: 10,
+            title: "Hinglish & Tokenization Fertility",
+            slug: "hinglish-tokenization-fertility",
+            imageUrl: cdnImage("v1790976709/s1-e4-p10-why-is-hinglish-especially-interesting.webp"),
+            caption:
+              "Handwritten explanation of why Hinglish can tokenize differently due to mixed English vocabulary, Hindi grammar, Roman script, informal spellings, and local expressions, along with how humans understand meaning differently from tokenizers and how tokenization fertility measures the number of tokens used to represent text.",
+          },
         ],
       },
     ],

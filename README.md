@@ -129,6 +129,7 @@ Discover how Large Language Models represent, process, and understand language b
 | 07  | **BPE vs WordPiece vs Unigram**                   |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/bpe-vs-wordpiece-vs-unigram)          |
 | 08  | **Token Boundaries Are Not Meaning Boundaries**   |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/token-boundaries-not-meaning-boundaries)    |
 | 09  | **English vs Other Languages**                    |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/english-vs-other-languages)           |
+| 10  | **Why is Hinglish Especially Interesting?**       |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-is-hinglish-especially-interesting)     |
 
 ---
 
