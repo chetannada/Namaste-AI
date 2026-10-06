@@ -509,6 +509,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of why Hinglish can tokenize differently due to mixed English vocabulary, Hindi grammar, Roman script, informal spellings, and local expressions, along with how humans understand meaning differently from tokenizers and how tokenization fertility measures the number of tokens used to represent text.",
           },
+          {
+            pageNumber: 11,
+            title: "How LLMs Tokenize Emojis & Special Characters",
+            slug: "llm-tokenization-emojis-special-characters",
+            imageUrl: cdnImage("v1790976709/s1-e4-p11-how-does-an-llm-handle-emojis.webp"),
+            caption:
+              "Handwritten explanation of how tokenizers represent emojis, whitespace, capital letters, punctuation, and other special characters, showing why one emoji or character does not necessarily equal one token and how small changes in text can produce different token sequences and token IDs.",
+          },
         ],
       },
     ],
