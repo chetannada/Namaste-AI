@@ -131,6 +131,7 @@ Discover how Large Language Models represent, process, and understand language b
 | 09  | **English vs Other Languages**                    |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/english-vs-other-languages)           |
 | 10  | **Why is Hinglish Especially Interesting?**       |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-is-hinglish-especially-interesting)     |
 | 11  | **How LLMs Tokenize Emojis & Special Characters** |  [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/how-llms-tokenize-emojis-special-characters)  |
+| 12  | **How Does an LLM Process Code?**                 |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/how-does-llms-process-code)           |
 
 ---
 
