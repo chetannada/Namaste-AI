@@ -517,6 +517,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of how tokenizers represent emojis, whitespace, capital letters, punctuation, and other special characters, showing why one emoji or character does not necessarily equal one token and how small changes in text can produce different token sequences and token IDs.",
           },
+          {
+            pageNumber: 12,
+            title: "How Does an LLM Process Code?",
+            slug: "how-does-llms-process-code",
+            imageUrl: cdnImage("v1790976710/s1-e4-p12-how-does-an-llm-process-code.webp"),
+            caption:
+              "Handwritten explanation of how LLMs process code by tokenizing programming syntax into tokens and token IDs, showing how whitespace, indentation, punctuation, and formatting can change tokenization, and how the full model input can include system instructions, context, messages, and tool results.",
+          },
         ],
       },
     ],
