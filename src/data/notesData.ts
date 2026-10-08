@@ -525,6 +525,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of how LLMs process code by tokenizing programming syntax into tokens and token IDs, showing how whitespace, indentation, punctuation, and formatting can change tokenization, and how the full model input can include system instructions, context, messages, and tool results.",
           },
+          {
+            pageNumber: 13,
+            title: "How Are Instructions Passed to an LLM?",
+            slug: "how-are-instructions-passed-to-an-llm",
+            imageUrl: cdnImage("v1791430483/s1-e4-p13-how-are-instructions-passed-to-a-llm.webp"),
+            caption:
+              "Handwritten explanation of how instructions are passed to an LLM using message roles and chat formatting, showing how system, user, assistant, and tool messages are distinguished through special tokens, role markers, control tokens, and chat templates.",
+          },
         ],
       },
     ],
