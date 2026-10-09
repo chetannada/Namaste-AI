@@ -533,6 +533,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of how instructions are passed to an LLM using message roles and chat formatting, showing how system, user, assistant, and tool messages are distinguished through special tokens, role markers, control tokens, and chat templates.",
           },
+          {
+            pageNumber: 14,
+            title: "What Is a Context Window?",
+            slug: "what-is-a-context-window",
+            imageUrl: cdnImage("v1791430483/s1-e4-p14-what-is-a-context-window.webp"),
+            caption:
+              "Handwritten explanation of the LLM context window as the model's limited working space for tokens, covering how system instructions, user prompts, conversation history, uploaded documents, retrieved information, and tool outputs use context, with a real-world example of how earlier messages help the model understand follow-up questions.",
+          },
         ],
       },
     ],
