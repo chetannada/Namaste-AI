@@ -541,6 +541,16 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of the LLM context window as the model's limited working space for tokens, covering how system instructions, user prompts, conversation history, uploaded documents, retrieved information, and tool outputs use context, with a real-world example of how earlier messages help the model understand follow-up questions.",
           },
+          {
+            pageNumber: 15,
+            title: "Why Does the Assistant Need Previous Messages?",
+            slug: "why-does-the-assistant-need-previous-messages",
+            imageUrl: cdnImage(
+              "v1791430483/s1-e4-p15-why-does-the-assistant-need-previous-messages.webp"
+            ),
+            caption:
+              "Handwritten explanation of why AI assistants need previous conversation messages to understand follow-up questions, how longer conversations consume more context tokens, how input and output share the context window, and how RAG retrieves relevant documents to provide useful information without filling the context with an entire knowledge base.",
+          },
         ],
       },
     ],

@@ -118,22 +118,23 @@ Discover how Large Language Models represent, process, and understand language b
 - 📍 Positional Encoding
 - 🪟 Context Window
 
-|  #  | ✍️ Handwritten Notes                              |                                                                        Action                                                                        |
-| :-: | :------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 01  | **Computers cannot understand Words Like Humans** | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/computers-cannot-understand-words-like-humans) |
-| 02  | **What Is a Token and Tokenizer?**                |         [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-a-token-and-tokenizer)         |
-| 03  | **Words vs Characters vs Tokens**                 |         [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/words-vs-characters-vs-tokens)         |
-| 04  | **Why Do Models Use Subword Tokenization?**       |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-do-models-use-subword-tokenization)     |
-| 05  | **Why Does Every LLM Have Its Own Vocabulary?**   |  [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-does-every-llm-have-its-own-vocabulary)   |
-| 06  | **What Is Byte Pair Encoding (BPE)?**             |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-byte-pair-encoding)           |
-| 07  | **BPE vs WordPiece vs Unigram**                   |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/bpe-vs-wordpiece-vs-unigram)          |
-| 08  | **Token Boundaries Are Not Meaning Boundaries**   |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/token-boundaries-not-meaning-boundaries)    |
-| 09  | **English vs Other Languages**                    |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/english-vs-other-languages)           |
-| 10  | **Why is Hinglish Especially Interesting?**       |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-is-hinglish-especially-interesting)     |
-| 11  | **How LLMs Tokenize Emojis & Special Characters** |  [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/how-llms-tokenize-emojis-special-characters)  |
-| 12  | **How Does an LLM Process Code?**                 |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/how-does-llms-process-code)           |
-| 13  | **How Are Instructions Passed to an LLM?**        |     [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/how-are-instructions-passed-to-an-llm)     |
-| 14  | **What Is a Context Window?**                     |           [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-a-context-window)            |
+|  #  | ✍️ Handwritten Notes                               |                                                                        Action                                                                        |
+| :-: | :------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 01  | **Computers cannot understand Words Like Humans**  | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/computers-cannot-understand-words-like-humans) |
+| 02  | **What Is a Token and Tokenizer?**                 |         [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-a-token-and-tokenizer)         |
+| 03  | **Words vs Characters vs Tokens**                  |         [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/words-vs-characters-vs-tokens)         |
+| 04  | **Why Do Models Use Subword Tokenization?**        |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-do-models-use-subword-tokenization)     |
+| 05  | **Why Does Every LLM Have Its Own Vocabulary?**    |  [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-does-every-llm-have-its-own-vocabulary)   |
+| 06  | **What Is Byte Pair Encoding (BPE)?**              |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-byte-pair-encoding)           |
+| 07  | **BPE vs WordPiece vs Unigram**                    |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/bpe-vs-wordpiece-vs-unigram)          |
+| 08  | **Token Boundaries Are Not Meaning Boundaries**    |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/token-boundaries-not-meaning-boundaries)    |
+| 09  | **English vs Other Languages**                     |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/english-vs-other-languages)           |
+| 10  | **Why is Hinglish Especially Interesting?**        |    [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-is-hinglish-especially-interesting)     |
+| 11  | **How LLMs Tokenize Emojis & Special Characters**  |  [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/how-llms-tokenize-emojis-special-characters)  |
+| 12  | **How Does an LLM Process Code?**                  |          [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/how-does-llms-process-code)           |
+| 13  | **How Are Instructions Passed to an LLM?**         |     [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/how-are-instructions-passed-to-an-llm)     |
+| 14  | **What Is a Context Window?**                      |           [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-a-context-window)            |
+| 15  | **Why Does the Assistant Need Previous Messages?** | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-does-the-assistant-need-previous-messages) |
 
 ---
 
