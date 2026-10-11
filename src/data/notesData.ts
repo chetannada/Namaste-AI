@@ -551,6 +551,16 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of why AI assistants need previous conversation messages to understand follow-up questions, how longer conversations consume more context tokens, how input and output share the context window, and how RAG retrieves relevant documents to provide useful information without filling the context with an entire knowledge base.",
           },
+          {
+            pageNumber: 16,
+            title: "What Happens When the Context Window Fills?",
+            slug: "what-happens-when-context-window-fills",
+            imageUrl: cdnImage(
+              "v1791735010/s1-e4-p16-what-happens-when-the-context-window-fills.webp"
+            ),
+            caption:
+              "Handwritten explanation of what happens when an LLM's context window reaches its token limit, covering strategies such as rejecting requests, truncating input, removing older messages, summarizing conversation history, retrieving relevant information, shortening input, and splitting tasks into smaller requests, along with the difference between visible conversation history and the actual context provided to the model.",
+          },
         ],
       },
     ],
