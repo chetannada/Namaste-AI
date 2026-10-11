@@ -135,6 +135,7 @@ Discover how Large Language Models represent, process, and understand language b
 | 13  | **How Are Instructions Passed to an LLM?**         |     [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/how-are-instructions-passed-to-an-llm)     |
 | 14  | **What Is a Context Window?**                      |           [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-is-a-context-window)            |
 | 15  | **Why Does the Assistant Need Previous Messages?** | [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/why-does-the-assistant-need-previous-messages) |
+| 16  | **What Happens When the Context Window Fills?**    |  [View Notes ↗](https://namaste-ai-dev.vercel.app/notes/season-1/episode-4-the-secret-language-of-llms/what-happens-when-the-context-window-fills)   |
 
 ---
 
