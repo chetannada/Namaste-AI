@@ -113,10 +113,16 @@ Discover how Large Language Models represent, process, and understand language b
 
 **What you'll learn**
 
-- 🧩 Tokens & Tokenization
-- 🌐 Word Embeddings
-- 📍 Positional Encoding
-- 🪟 Context Window
+- 🧩 Tokens, Tokenizers & Token IDs
+- ✂️ Words vs Characters vs Subword Tokenization
+- 📖 Tokenizer Vocabulary
+- 🔄 Byte Pair Encoding (BPE), WordPiece & Unigram
+- 🌍 Multilingual Tokenization & Hinglish Fertility
+- 💻 Tokenizing Emojis, Code & Special Characters
+- 💬 Chat Templates & Instruction Roles
+- 🪟 Context Window & Conversation History
+- ⚠️ Context Window Limits & Truncation
+- 💡 Prompt Optimization & Token Costs
 
 |  #  | ✍️ Handwritten Notes                               |                                                                        Action                                                                        |
 | :-: | :------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
