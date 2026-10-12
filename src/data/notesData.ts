@@ -561,6 +561,14 @@ export const seasonsData: Season[] = [
             caption:
               "Handwritten explanation of what happens when an LLM's context window reaches its token limit, covering strategies such as rejecting requests, truncating input, removing older messages, summarizing conversation history, retrieving relevant information, shortening input, and splitting tasks into smaller requests, along with the difference between visible conversation history and the actual context provided to the model.",
           },
+          {
+            pageNumber: 17,
+            title: "Long Prompt ≠ Better Results",
+            slug: "long-prompt-not-equal-to-better-results",
+            imageUrl: cdnImage("s1-e4-p17-long-prompt-not-equal-to-better-results.webp"),
+            caption:
+              "Handwritten explanation of why longer prompts do not automatically produce better results, comparing short and verbose prompts with a JavaScript closures example, showing how clear instructions and relevant context improve prompt quality, and explaining how input and output token usage affects LLM API costs.",
+          },
         ],
       },
     ],
