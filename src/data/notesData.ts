@@ -420,7 +420,21 @@ export const seasonsData: Season[] = [
         slug: "the-secret-language-of-llms",
         description:
           "Discover how Large Language Models represent, process, and understand language behind the scenes.",
-        topics: ["Tokens", "Embeddings", "Attention", "Context Window"],
+        topics: [
+          "Tokens & Tokenizers",
+          "Subword Tokenization",
+          "Tokenizer Vocabulary",
+          "Byte Pair Encoding (BPE)",
+          "BPE vs WordPiece vs Unigram",
+          "Token Boundaries",
+          "Multilingual Tokenization",
+          "Tokenization Fertility",
+          "Emojis & Code Tokenization",
+          "Chat Templates & Instructions",
+          "Context Window",
+          "Context Window Limits",
+          "Prompt Optimization & Token Costs",
+        ],
         isAvailable: true,
         pages: [
           {
